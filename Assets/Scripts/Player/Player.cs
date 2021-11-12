@@ -1,0 +1,73 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Player : Mover
+{
+    bool updatedStationary = true;
+    private float xSpeed = 0f;
+    private float ySpeed = 0f;
+    [SerializeField] Camera cam;
+
+    protected override void Awake()
+    {
+        base.Awake();
+    }
+    private void Update()
+    {
+        // for movement
+        xSpeed = Input.GetAxisRaw("Horizontal");
+        ySpeed = Input.GetAxisRaw("Vertical");
+
+        // for attacks
+        if (attackRateTimer <= 0)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                Attack();
+                attackRateTimer = attackRate;
+            }
+        }
+        else
+        {
+            attackRateTimer -= Time.deltaTime;
+        }
+        // for mouse pos
+
+    }
+    private void FixedUpdate()
+    {
+        /*
+           this function processes players input and updates the moveDirection vector
+        */
+        if (xSpeed != 0f || ySpeed != 0f)
+        {
+            UpdateMovement(new Vector2(xSpeed, ySpeed));
+            updatedStationary = false;
+        }
+        else if (!updatedStationary)
+        {
+            UpdateMovement(new Vector2(0, 0));
+            updatedStationary = true;
+        }
+
+    }
+    private void Attack()
+    {
+        
+        Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPosition.position, attackRange, (int)Layers.Enemy);
+        for (int i = 0; i < enemiesToDamage.Length; i++)
+        {
+            Damage dmg = new Damage();
+            dmg.damageAmount = baseDamage;
+            Enemy enemy = enemiesToDamage[i].GetComponent<Enemy>();
+            enemy.TakeDamage(dmg);
+            Debug.Log("Attacking " + enemy + " With damage of: " + dmg.damageAmount);
+        }
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPosition.position, attackRange);
+    }
+}
