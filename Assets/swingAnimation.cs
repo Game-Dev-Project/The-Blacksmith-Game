@@ -22,6 +22,9 @@ public class swingAnimation : MonoBehaviour
             //show animation
             //sordAnimation.SetTrigger("SwingSord");
 
+            //attack
+            //attack();
+
             currentTime = Time.time;
         }
     }

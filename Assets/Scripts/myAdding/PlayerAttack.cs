@@ -6,7 +6,6 @@ public class PlayerAttack : Character
 {
     protected float currentTime = 0f;
     [SerializeField] public float timeBetweenSpawns = 0.5f;
-    [SerializeField] public KeyCode keyToPress;
     private Animator sordAnimation;
 
     // Start is called before the first frame update
@@ -27,7 +26,7 @@ public class PlayerAttack : Character
 
     private void Attack()
     {
-        sordAnimation.SetTrigger("Attack!"); //show the animation.
+        sordAnimation.SetTrigger("Attack"); //show the animation.
 
         Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPosition.position, attackRange, (int)Layers.Enemy);
         for (int i = 0; i < enemiesToDamage.Length; i++)
