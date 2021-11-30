@@ -9,12 +9,25 @@ public class Player : Mover
     private float ySpeed = 0f;
     [SerializeField] Camera cam;
 
+    private Vector2 weaponPos;
+    private float weaponPosRadius = 0.1f;
+    Vector2 mousePos;
+    Vector2 directionToMouse;
+
     protected override void Awake()
     {
         base.Awake();
+        attackRateTimer = attackRate;
+        attackRange = 0.2f;
     }
     private void Update()
     {
+        // center of the circle
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition); // get mouse position
+        directionToMouse = mousePos - (Vector2)transform.position; // direction to the mouse
+        directionToMouse = Vector2.ClampMagnitude(directionToMouse, weaponPosRadius); // we clamp the direction vector to threshhold
+        weaponPos = directionToMouse + (Vector2)transform.position; // apply direction with center
+
         // for movement
         xSpeed = Input.GetAxisRaw("Horizontal");
         ySpeed = Input.GetAxisRaw("Vertical");
@@ -54,8 +67,7 @@ public class Player : Mover
     }
     private void Attack()
     {
-        
-        Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPosition.position, attackRange, (int)Layers.Enemy);
+        Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(weaponPos, attackRange, (int)Layers.Enemy);
         for (int i = 0; i < enemiesToDamage.Length; i++)
         {
             Damage dmg = new Damage();
@@ -68,6 +80,6 @@ public class Player : Mover
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackPosition.position, attackRange);
+        Gizmos.DrawWireSphere(weaponPos, attackRange);
     }
 }
