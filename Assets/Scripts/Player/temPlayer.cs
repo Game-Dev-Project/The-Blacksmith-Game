@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class mover1 : Mover
+public class temPlayer : Mover
 {
     bool updatedStationary = true;
     private float xSpeed = 0f;
@@ -13,12 +13,16 @@ public class mover1 : Mover
     private float weaponPosRadius = 0.1f;
     Vector2 mousePos;
     Vector2 directionToMouse;
-    [SerializeField] Animator animator;
+    private Animator anim;
 
+    void start()
+    {
+
+    }
     protected override void Awake()
     {
-        animator = GetComponent<Animator>();
         base.Awake();
+        anim = GetComponent<Animator>();
         attackRateTimer = attackRate;
         attackRange = 0.2f;
     }
@@ -34,13 +38,16 @@ public class mover1 : Mover
         xSpeed = Input.GetAxisRaw("Horizontal");
         ySpeed = Input.GetAxisRaw("Vertical");
 
+        anim.SetFloat("moveX", xSpeed);
+        anim.SetFloat("moveY", ySpeed);
+
         // for attacks
+
         if (attackRateTimer <= 0)
         {
             if (Input.GetMouseButtonDown(0))
             {
-                animator.SetTrigger("Attack");
-
+                anim.SetTrigger("attack");
                 Attack();
                 attackRateTimer = attackRate;
             }
@@ -68,6 +75,8 @@ public class mover1 : Mover
             updatedStationary = true;
         }
 
+        //anim.SetInteger("MoveX", (int)xSpeed);
+
     }
     private void Attack()
     {
@@ -85,5 +94,20 @@ public class mover1 : Mover
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(weaponPos, attackRange);
+    }
+
+    private void OnTriggerEnter2D(Collider2D coll)
+    {
+        Debug.Log("the player collect " + coll.name);
+
+        if (coll.tag == "Weapon")
+        {
+            // List<T> weaeponSprite.Add(T) = KEEP ALL THE WEAPONS THE PLAYER COLLECTED
+
+            Sprite tempSprite = coll.GetComponent<SpriteRenderer>().sprite;
+
+            GameObject ChildGameObject = this.transform.GetChild(1).gameObject.transform.GetChild(0).gameObject;
+            ChildGameObject.GetComponent<SpriteRenderer>().sprite = tempSprite;
+        }
     }
 }
