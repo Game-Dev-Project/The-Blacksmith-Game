@@ -184,7 +184,7 @@ MonoBehaviour:
   m_text: 'Finally I''m almost at home!
 
     I can see the town at the end of the
-    roud'
+    road'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -374,14 +374,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'press W to move up
-
-    press S to move down
-
-    press A to move left
-
-    press
-    D to move right'
+  m_text: To move use the [W,A,S,D] keys
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -530,11 +523,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2370601109787770608, guid: 81c28b44e0b1b214ea8a7d6e7c469194, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.478
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2370601109787770608, guid: 81c28b44e0b1b214ea8a7d6e7c469194, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.155
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2370601109787770608, guid: 81c28b44e0b1b214ea8a7d6e7c469194, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30144,7 +30137,7 @@ GameObject:
   - component: {fileID: 2037909856}
   - component: {fileID: 2037909855}
   m_Layer: 0
-  m_Name: enamyAttaking
+  m_Name: enemyAttaking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
