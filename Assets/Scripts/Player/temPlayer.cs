@@ -15,10 +15,6 @@ public class temPlayer : Mover
     Vector2 directionToMouse;
     private Animator anim;
 
-    void start()
-    {
-
-    }
     protected override void Awake()
     {
         base.Awake();
@@ -75,7 +71,7 @@ public class temPlayer : Mover
             updatedStationary = true;
         }
 
-        //anim.SetInteger("MoveX", (int)xSpeed);
+        
 
     }
     private void Attack()
@@ -106,7 +102,7 @@ public class temPlayer : Mover
 
             Sprite tempSprite = coll.GetComponent<SpriteRenderer>().sprite;
 
-            GameObject ChildGameObject = this.transform.GetChild(1).gameObject.transform.GetChild(0).gameObject;
+            GameObject ChildGameObject = this.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject;
             ChildGameObject.GetComponent<SpriteRenderer>().sprite = tempSprite;
         }
     }
