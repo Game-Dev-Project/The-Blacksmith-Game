@@ -9,13 +9,13 @@ public class Collideable : MonoBehaviour
     private BoxCollider2D BoxCollider;
     private Rigidbody2D Rigidbody;
 
-    void Start()
+    protected virtual void Start()
     {
         BoxCollider = GetComponent<BoxCollider2D>();
         Rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    private void OnTriggerEnter2D(Collider2D coll)
+    protected virtual void OnTriggerEnter2D(Collider2D coll)
     {
         Destroy(this.gameObject);
     }

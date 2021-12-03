@@ -71,7 +71,7 @@ public class temPlayer : Mover
             updatedStationary = true;
         }
 
-        
+
 
     }
     private void Attack()
@@ -94,14 +94,12 @@ public class temPlayer : Mover
 
     private void OnTriggerEnter2D(Collider2D coll)
     {
-        Debug.Log("the player collect " + coll.name);
-
         if (coll.tag == "Weapon")
         {
             // List<T> weaeponSprite.Add(T) = KEEP ALL THE WEAPONS THE PLAYER COLLECTED
 
             Sprite tempSprite = coll.GetComponent<SpriteRenderer>().sprite;
-
+            Debug.Log("the player collect " + tempSprite.name);
             GameObject ChildGameObject = this.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject;
             ChildGameObject.GetComponent<SpriteRenderer>().sprite = tempSprite;
         }
