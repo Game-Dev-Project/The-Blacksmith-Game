@@ -77,4 +77,9 @@ public abstract class Character : MonoBehaviour
             hitPoints = maxHitPoints;
         }
     }
+
+    public float getBaseDamage()
+    {
+        return baseDamage;
+    }
 }

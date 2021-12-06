@@ -17,6 +17,9 @@ public class Collideable : MonoBehaviour
 
     protected virtual void OnTriggerEnter2D(Collider2D coll)
     {
-        Destroy(this.gameObject);
+        if (coll.tag == "Player")
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

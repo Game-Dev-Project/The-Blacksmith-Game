@@ -9,6 +9,7 @@ public class Enemy : Mover
     [Header("Enemy Parameters")]
     protected string enemyName;
     protected float attackRadius = 2f;
+    [SerializeField] private GameObject Weapon;
     public float GetAttackRadius()
     {
         return attackRadius;
@@ -20,8 +21,34 @@ public class Enemy : Mover
         enemyName = gameObject.name;
         movementSpeed = 2f;
     }
+
     public virtual void Attack(GameObject target)
     {
-        // Debug.Log("Attacking from base");
+        // make an if statment wait between shoot
+
+        Debug.Log("Attacking from base");
+        // anim.SetTrigger("th_right");
+        // throwBone();
     }
+    // private IEnumerator throwBone()
+    // {
+    // yield return new WaitForSeconds(0.5f);
+    // GameObject newBone = Instantiate(Weapon, transform.position, Quaternion.identity);
+    // Destroy(gameObject);
+    // }
+
+    protected override void KillSelf()
+    {
+        // add death animation and logic
+        Debug.Log(gameObject.name + " got: " + hitPoints + ", Killing self");
+        // activate the animation - "die"
+        StartCoroutine(activateAnimation());
+    }
+    private IEnumerator activateAnimation()
+    {
+        anim.SetTrigger("die");
+        yield return new WaitForSeconds(0.5f);
+        Destroy(gameObject);
+    }
+
 }

@@ -7,10 +7,12 @@ public abstract class Mover : Character
     [SerializeField] protected float movementSpeed = 5f;
     protected Vector2 moveDirection;
     private bool facingRight;
+    protected Animator anim;
 
     protected override void Awake()
     {
         base.Awake(); // a must on all override of awake, like a constructor.
+        anim = GetComponent<Animator>();
     }
 
     /*
