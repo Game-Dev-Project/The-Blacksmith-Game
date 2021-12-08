@@ -9,24 +9,25 @@ public class Player : Mover
     private float ySpeed = 0f;
     [SerializeField] Camera cam;
 
+    [SerializeField] private Animator swordAnim;
     private Vector2 weaponPos;
 
-    // private float weaponPosRadius = 0.1f; // ? - put on the sword or on the character
+    private float weaponPosRadius = 0.1f;
     Vector2 mousePos;
     Vector2 directionToMouse;
     protected override void Awake()
     {
         base.Awake();
         attackRateTimer = attackRate;
-        attackRange = 0.2f;
+        // attackRange = 0.2f;
     }
     private void Update()
     {
         // center of the circle
-        // mousePos = cam.ScreenToWorldPoint(Input.mousePosition); // get mouse position
-        // directionToMouse = mousePos - (Vector2)transform.position; // direction to the mouse
-        // directionToMouse = Vector2.ClampMagnitude(directionToMouse, weaponPosRadius); // we clamp the direction vector to threshhold
-        // weaponPos = directionToMouse + (Vector2)transform.position; // apply direction with center
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition); // get mouse position
+        directionToMouse = mousePos - (Vector2)transform.position; // direction to the mouse
+        directionToMouse = Vector2.ClampMagnitude(directionToMouse, weaponPosRadius); // we clamp the direction vector to threshhold
+        weaponPos = directionToMouse + (Vector2)transform.position; // apply direction with center
 
         // for movement
         xSpeed = Input.GetAxisRaw("Horizontal");
@@ -34,6 +35,12 @@ public class Player : Mover
 
         anim.SetFloat("moveX", xSpeed);
         anim.SetFloat("moveY", ySpeed);
+
+        // add  timeBetween Mouse press // Aviel
+        if (Input.GetMouseButtonDown(0))
+        {
+            Attack();
+        }
     }
     private void FixedUpdate()
     {
@@ -51,6 +58,7 @@ public class Player : Mover
             updatedStationary = true;
         }
     }
+
     private void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.tag == "Weapon")
@@ -62,4 +70,39 @@ public class Player : Mover
             ChildGameObject.GetComponent<SpriteRenderer>().sprite = tempSprite;
         }
     }
+
+    private void Attack()
+    {
+        // acivate the animator of sword
+        swordAnim.SetTrigger("attack");
+        // StartCoroutine(Attack());
+        Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(weaponPos, attackRange, (int)Layers.Enemy);
+        for (int i = 0; i < enemiesToDamage.Length; i++)
+        {
+            Damage dmg = new Damage();
+            dmg.damageAmount = getBaseDamage();
+            Enemy enemy = enemiesToDamage[i].GetComponent<Enemy>();
+            enemy.TakeDamage(dmg);
+            Debug.Log("Attacking " + enemy + " With damage of: " + dmg.damageAmount);
+        }
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPosition.position, attackRange);
+    }
+
+    // private IEnumerator Attack()
+    // {
+    //     yield return new WaitForSeconds(0.6f);
+    //     Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(weaponPos, attackRange, (int)Layers.Enemy);
+    //     for (int i = 0; i < enemiesToDamage.Length; i++)
+    //     {
+    //         Damage dmg = new Damage();
+    //         dmg.damageAmount = getBaseDamage();
+    //         Enemy enemy = enemiesToDamage[i].GetComponent<Enemy>();
+    //         enemy.TakeDamage(dmg);
+    //         Debug.Log("Attacking " + enemy + " With damage of: " + dmg.damageAmount);
+    //     }
+    // }
 }

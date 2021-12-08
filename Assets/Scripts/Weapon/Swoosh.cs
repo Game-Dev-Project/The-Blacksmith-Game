@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Swoosh : Collideable
 {
-    [SerializeField] private Player player;
+    // [SerializeField] private Player player;
     // [SerializeField] private float attackRange = 0.5f;
     // private Vector2 weaponPos;
 
@@ -25,14 +25,14 @@ public class Swoosh : Collideable
     // }
     protected override void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.tag == "Enemy")
-        {
-            Damage dmg = new Damage();
-            dmg.damageAmount = player.getBaseDamage();
-            Enemy enemy = coll.gameObject.GetComponent<Enemy>();
-            enemy.TakeDamage(dmg);
-            Debug.Log("Attacking " + enemy + " With damage of: " + dmg.damageAmount);
-        }
+        // if (coll.tag == "Enemy")
+        // {
+        //     Damage dmg = new Damage();
+        //     dmg.damageAmount = player.getBaseDamage();
+        //     Enemy enemy = coll.gameObject.GetComponent<Enemy>();
+        //     enemy.TakeDamage(dmg);
+        //     Debug.Log("Attacking " + enemy + " With damage of: " + dmg.damageAmount);
+        // }
     }
 
     // private void Attack()
