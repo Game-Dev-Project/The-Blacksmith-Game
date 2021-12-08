@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : Mover
 {
+    [SerializeField] private Transform weaponTransform;
     bool updatedStationary = true;
     private float xSpeed = 0f;
     private float ySpeed = 0f;
@@ -19,6 +20,7 @@ public class Player : Mover
     {
         base.Awake();
         attackRateTimer = attackRate;
+        Debug.Log(weaponTransform);
         // attackRange = 0.2f;
     }
     private void Update()
@@ -36,7 +38,7 @@ public class Player : Mover
         anim.SetFloat("moveX", xSpeed);
         anim.SetFloat("moveY", ySpeed);
 
-        // add  timeBetween Mouse press // Aviel
+        // add timeBetween Mouse press // Aviel
         if (Input.GetMouseButtonDown(0))
         {
             Attack();
@@ -75,34 +77,20 @@ public class Player : Mover
     {
         // acivate the animator of sword
         swordAnim.SetTrigger("attack");
-        // StartCoroutine(Attack());
-        Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(weaponPos, attackRange, (int)Layers.Enemy);
-        for (int i = 0; i < enemiesToDamage.Length; i++)
+        // Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(weaponPos, attackRange, (int)Layers.Enemy);
+        
+/*        for (int i = 0; i < enemiesToDamage.Length; i++)
         {
             Damage dmg = new Damage();
             dmg.damageAmount = getBaseDamage();
             Enemy enemy = enemiesToDamage[i].GetComponent<Enemy>();
             enemy.TakeDamage(dmg);
             Debug.Log("Attacking " + enemy + " With damage of: " + dmg.damageAmount);
-        }
+        }*/
     }
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPosition.position, attackRange);
     }
-
-    // private IEnumerator Attack()
-    // {
-    //     yield return new WaitForSeconds(0.6f);
-    //     Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(weaponPos, attackRange, (int)Layers.Enemy);
-    //     for (int i = 0; i < enemiesToDamage.Length; i++)
-    //     {
-    //         Damage dmg = new Damage();
-    //         dmg.damageAmount = getBaseDamage();
-    //         Enemy enemy = enemiesToDamage[i].GetComponent<Enemy>();
-    //         enemy.TakeDamage(dmg);
-    //         Debug.Log("Attacking " + enemy + " With damage of: " + dmg.damageAmount);
-    //     }
-    // }
 }

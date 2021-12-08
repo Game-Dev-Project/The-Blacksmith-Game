@@ -67,7 +67,7 @@ public class EnemyAI : MonoBehaviour
                 currEnemy.UpdateMovement(Mover.DirectionToMove(positionOfDetectedTarget, transform.position));
                 break;
             case State.AttackTarget: // If we are in attack range, Attack!
-                currEnemy.Attack(target);
+                currEnemy.Attack(target.transform.position - transform.position);
                 break;
         }
     }

@@ -22,20 +22,13 @@ public class Enemy : Mover
         movementSpeed = 2f;
     }
 
-    public virtual void Attack(GameObject target)
+    public virtual void Attack(Vector2 directionToTarget)
     {
         // make an if statment wait between shoot
+        Debug.Log("Attacking!");
 
-        Debug.Log("Attacking from base");
-        // anim.SetTrigger("th_right");
-        // throwBone();
     }
-    // private IEnumerator throwBone()
-    // {
-    // yield return new WaitForSeconds(0.5f);
-    // GameObject newBone = Instantiate(Weapon, transform.position, Quaternion.identity);
-    // Destroy(gameObject);
-    // }
+
 
     protected override void KillSelf()
     {

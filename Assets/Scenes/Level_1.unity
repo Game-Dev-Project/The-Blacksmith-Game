@@ -29611,7 +29611,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -29874,6 +29874,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fee1de581a4392b42b69ef0476bbe88a, type: 3}
+--- !u!4 &1924971126 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3917947329456502487, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
+  m_PrefabInstance: {fileID: 8148253364100036589}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2037909854
 GameObject:
   m_ObjectHideFlags: 0
@@ -97532,6 +97537,10 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1257691179}
+    - target: {fileID: 3917947330708055857, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
+      propertyPath: weaponTransform
+      value: 
+      objectReference: {fileID: 1924971126}
     - target: {fileID: 3917947330708055860, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -97575,6 +97584,14 @@ PrefabInstance:
     - target: {fileID: 3917947330708055860, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917947330708055861, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
+      propertyPath: m_Size.y
+      value: 0.35541153
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917947330708055861, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.293993
       objectReference: {fileID: 0}
     - target: {fileID: 3917947330873899531, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
       propertyPath: cam
