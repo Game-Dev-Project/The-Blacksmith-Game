@@ -4,24 +4,30 @@ using UnityEngine;
 
 public class Player : Mover
 {
-    [SerializeField] private Transform weaponTransform;
     bool updatedStationary = true;
     private float xSpeed = 0f;
     private float ySpeed = 0f;
     [SerializeField] Camera cam;
-
-    [SerializeField] private Animator swordAnim;
     private Vector2 weaponPos;
 
     private float weaponPosRadius = 0.1f;
     Vector2 mousePos;
     Vector2 directionToMouse;
+
+    // Player sword
+    private GameObject childSword;
+    private Animator swordAnim;
+    private bool swordHasSprite = false;
     protected override void Awake()
     {
         base.Awake();
         attackRateTimer = attackRate;
-        Debug.Log(weaponTransform);
-        // attackRange = 0.2f;
+    }
+    private void Start()
+    {
+        childSword = this.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject;
+        childSword.GetComponent<SwordPlayer>().setPlayerDamage(baseDamage);
+        swordAnim = childSword.GetComponent<Animator>();
     }
     private void Update()
     {
@@ -35,13 +41,21 @@ public class Player : Mover
         xSpeed = Input.GetAxisRaw("Horizontal");
         ySpeed = Input.GetAxisRaw("Vertical");
 
+        // adjusment the sprite of the player by the current direction movement
         anim.SetFloat("moveX", xSpeed);
         anim.SetFloat("moveY", ySpeed);
 
-        // add timeBetween Mouse press // Aviel
-        if (Input.GetMouseButtonDown(0))
+        if (attackRateTimer <= 0)
         {
-            Attack();
+            if (Input.GetMouseButtonDown(0))
+            {
+                Attack();
+                attackRateTimer = attackRate;
+            }
+        }
+        else
+        {
+            attackRateTimer -= Time.deltaTime;
         }
     }
     private void FixedUpdate()
@@ -66,31 +80,29 @@ public class Player : Mover
         if (coll.tag == "Weapon")
         {
             // List<T> weaeponSprite.Add(T) = KEEP ALL THE WEAPONS THE PLAYER COLLECTED
-            Sprite tempSprite = coll.GetComponent<SpriteRenderer>().sprite;
-            Debug.Log("the player collect " + tempSprite.name);
-            GameObject ChildGameObject = this.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject;
-            ChildGameObject.GetComponent<SpriteRenderer>().sprite = tempSprite;
+            Sprite newSprite = coll.GetComponent<SpriteRenderer>().sprite;
+            Damage newDamage = coll.GetComponent<SwordCollect>().getDamage();
+            childSword.GetComponent<SpriteRenderer>().sprite = newSprite;
+            childSword.GetComponent<SwordPlayer>().setSwordDamage(newDamage);
+            swordHasSprite = true;
         }
     }
 
     private void Attack()
     {
         // acivate the animator of sword
-        swordAnim.SetTrigger("attack");
-        // Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(weaponPos, attackRange, (int)Layers.Enemy);
-        
-/*        for (int i = 0; i < enemiesToDamage.Length; i++)
+        if (swordHasSprite)
         {
-            Damage dmg = new Damage();
-            dmg.damageAmount = getBaseDamage();
-            Enemy enemy = enemiesToDamage[i].GetComponent<Enemy>();
-            enemy.TakeDamage(dmg);
-            Debug.Log("Attacking " + enemy + " With damage of: " + dmg.damageAmount);
-        }*/
+            swordAnim.SetTrigger("attack");
+        }
+        else
+        {
+            Debug.Log("need to activate a fist animtion for the player");
+        }
     }
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackPosition.position, attackRange);
-    }
+    // private void OnDrawGizmos()
+    // {
+    //     Gizmos.color = Color.red;
+    //     Gizmos.DrawWireSphere(attackPosition.position, attackRange);
+    // }
 }

@@ -29735,6 +29735,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7405340309945490595, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
+      propertyPath: damageAmount
+      value: 2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 358421291804971604, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: m_Name
       value: Sword_1
@@ -29760,12 +29764,24 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 358421291804971606, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.059238
+      objectReference: {fileID: 0}
+    - target: {fileID: 358421291804971606, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.059238
+      objectReference: {fileID: 0}
+    - target: {fileID: 358421291804971606, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.059238
+      objectReference: {fileID: 0}
+    - target: {fileID: 358421291804971606, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.6412249
+      value: 0.003
       objectReference: {fileID: 0}
     - target: {fileID: 358421291804971606, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -36.14878
+      value: -35.803
       objectReference: {fileID: 0}
     - target: {fileID: 358421291804971606, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -29874,11 +29890,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fee1de581a4392b42b69ef0476bbe88a, type: 3}
---- !u!4 &1924971126 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3917947329456502487, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
-  m_PrefabInstance: {fileID: 8148253364100036589}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2037909854
 GameObject:
   m_ObjectHideFlags: 0
@@ -97537,10 +97548,6 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1257691179}
-    - target: {fileID: 3917947330708055857, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
-      propertyPath: weaponTransform
-      value: 
-      objectReference: {fileID: 1924971126}
     - target: {fileID: 3917947330708055860, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -97584,14 +97591,6 @@ PrefabInstance:
     - target: {fileID: 3917947330708055860, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3917947330708055861, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
-      propertyPath: m_Size.y
-      value: 0.35541153
-      objectReference: {fileID: 0}
-    - target: {fileID: 3917947330708055861, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.293993
       objectReference: {fileID: 0}
     - target: {fileID: 3917947330873899531, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
       propertyPath: cam

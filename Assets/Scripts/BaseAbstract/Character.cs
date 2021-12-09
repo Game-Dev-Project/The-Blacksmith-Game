@@ -15,7 +15,7 @@ public abstract class Character : MonoBehaviour
     [SerializeField] protected float baseDamage = 5f;
     [SerializeField] protected float attackRate = 0.5f;
     [SerializeField] protected float attackRange = 2f;
-    [SerializeField] protected Transform attackPosition;
+    // [SerializeField] protected Transform attackPosition;
 
     private float stunnedTime;
     private float startStunnedTime;
