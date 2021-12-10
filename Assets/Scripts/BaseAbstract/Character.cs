@@ -82,4 +82,14 @@ public abstract class Character : MonoBehaviour
     {
         return baseDamage;
     }
+
+    public void setBaseDamage(float baseDamage)
+    {
+        this.baseDamage = baseDamage;
+    }
+
+    public void setAttackRate(float attackRate)
+    {
+        this.attackRate = attackRate;
+    }
 }

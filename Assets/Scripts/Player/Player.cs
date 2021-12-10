@@ -1,13 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : Mover
 {
+    [SerializeField] Camera cam;
+
+    [SerializeField]
+    [Tooltip("decide wich scene the game will show when the player is DEAD")]
+    string sceneName;
     bool updatedStationary = true;
     private float xSpeed = 0f;
     private float ySpeed = 0f;
-    [SerializeField] Camera cam;
+
     private Vector2 weaponPos;
 
     private float weaponPosRadius = 0.1f;
@@ -17,7 +23,9 @@ public class Player : Mover
     // Player sword
     private GameObject childSword;
     private Animator swordAnim;
+
     private bool swordHasSprite = false;
+
     protected override void Awake()
     {
         base.Awake();
@@ -26,7 +34,7 @@ public class Player : Mover
     private void Start()
     {
         childSword = this.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject;
-        childSword.GetComponent<SwordPlayer>().setPlayerDamage(baseDamage);
+        childSword.GetComponent<PlayerAttack>().setCharacterDamageAmount(baseDamage);
         swordAnim = childSword.GetComponent<Animator>();
     }
     private void Update()
@@ -79,11 +87,11 @@ public class Player : Mover
     {
         if (coll.tag == "Weapon")
         {
-            // List<T> weaeponSprite.Add(T) = KEEP ALL THE WEAPONS THE PLAYER COLLECTED
+            // List<string> weaeponSprite.Add(string) = KEEP ALL THE WEAPONS THE PLAYER COLLECTED
             Sprite newSprite = coll.GetComponent<SpriteRenderer>().sprite;
             Damage newDamage = coll.GetComponent<SwordCollect>().getDamage();
             childSword.GetComponent<SpriteRenderer>().sprite = newSprite;
-            childSword.GetComponent<SwordPlayer>().setSwordDamage(newDamage);
+            childSword.GetComponent<PlayerAttack>().setSelfDamage(newDamage);
             swordHasSprite = true;
         }
     }
@@ -100,9 +108,12 @@ public class Player : Mover
             Debug.Log("need to activate a fist animtion for the player");
         }
     }
-    // private void OnDrawGizmos()
-    // {
-    //     Gizmos.color = Color.red;
-    //     Gizmos.DrawWireSphere(attackPosition.position, attackRange);
-    // }
+
+    protected override void KillSelf()
+    {
+        Debug.Log(gameObject.name + " got: " + hitPoints + ", Killing self");
+        Debug.Log("the Player is DEAD!");
+        SceneManager.LoadScene(sceneName);
+
+    }
 }
