@@ -29533,18 +29533,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3917947329456502484, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
   m_PrefabInstance: {fileID: 8148253364100036589}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &720920899
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720920893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66f6f9d8c58d38e448db9a455d06561a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &720920900
 Animator:
   serializedVersion: 3
@@ -29771,6 +29759,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7405340309945490595, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
+      propertyPath: pushForce
+      value: 700
+      objectReference: {fileID: 0}
     - target: {fileID: 358421291804971604, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: m_Name
       value: Sword_1
@@ -29858,7 +29850,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5385048314277619330, guid: fee1de581a4392b42b69ef0476bbe88a, type: 3}
       propertyPath: Damage
-      value: 5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5385048314277619330, guid: fee1de581a4392b42b69ef0476bbe88a, type: 3}
       propertyPath: spawnRadius
@@ -97576,6 +97568,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1395760778846006065, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
+      propertyPath: waitTime
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917947329456502490, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917947329456502491, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3917947330708055246, guid: 9a653ffc7ba7147498058e89a448cdcd, type: 3}
       propertyPath: m_Name
       value: Player

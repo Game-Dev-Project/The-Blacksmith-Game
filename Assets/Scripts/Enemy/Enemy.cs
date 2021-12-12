@@ -48,7 +48,7 @@ public class Enemy : Mover
 
     protected override void KillSelf()
     {
-        Debug.Log(gameObject.name + " got: " + hitPoints + ", Killing self");
+        Debug.Log(gameObject.name + " got: " + hitPoints + " and DEAD");
         // activate the animation - "die"
         StartCoroutine(killAnimation());
     }

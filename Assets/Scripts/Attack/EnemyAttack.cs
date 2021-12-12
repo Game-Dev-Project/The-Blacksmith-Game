@@ -11,7 +11,7 @@ public class EnemyAttack : WeaponAttack
             {
                 Damage sumDamage = base.calculateSumDamage();
                 coll.GetComponent<Player>().TakeDamage(sumDamage);
-                Debug.Log("PLAYER got hit by " + sumDamage.damageAmount + " point");
+                // Debug.Log("PLAYER got hit by " + sumDamage.damageAmount + " point");
                 Destroy(gameObject);
             }
         }
