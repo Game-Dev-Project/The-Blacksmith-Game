@@ -23,8 +23,8 @@ public class Player : Mover
     // Player sword
     private GameObject childSword;
     private Animator swordAnim;
-
-    private bool swordHasSprite = false;
+    private Dictionary<int, WeaponSword> allWeapons = new Dictionary<int, WeaponSword>(); // hold the name and the sprite of the weapons
+    private int currentSword = 0;
 
     protected override void Awake()
     {
@@ -87,20 +87,26 @@ public class Player : Mover
     {
         if (coll.tag == "Weapon")
         {
-            // List<string> weaeponSprite.Add(string) = KEEP ALL THE WEAPONS THE PLAYER COLLECTED
-            Sprite newSprite = coll.GetComponent<SpriteRenderer>().sprite;
-            Damage newDamage = coll.GetComponent<SwordCollect>().getDamage();
+            Sprite newSprite = coll.GetComponent<SpriteRenderer>().sprite;      // get the sprite from the collider
+            Damage newDamage = coll.GetComponent<SwordCollect>().getDamage();   // get the damage details
+            childSword.GetComponent<PlayerAttack>().setSelfDamage(newDamage);   // put the damage on childSword
             childSword.GetComponent<SpriteRenderer>().sprite = newSprite;
-            childSword.GetComponent<PlayerAttack>().setSelfDamage(newDamage);
-            swordHasSprite = true;
+
+            WeaponSword s = new WeaponSword();
+            string newName = coll.name;
+            int n = stringToInt(newName);
+            s.name = newName;
+            s.sprite = newSprite;
+            allWeapons.Add(n, s);
+            currentSword = n;
         }
     }
 
     private void Attack()
     {
-        // acivate the animator of sword
-        if (swordHasSprite)
+        if (currentSword != 0)
         {
+            Debug.Log("attack! sword is equal to " + allWeapons[currentSword].name);
             swordAnim.SetTrigger("attack");
         }
         else
@@ -115,5 +121,11 @@ public class Player : Mover
         Debug.Log("the Player is DEAD!");
         SceneManager.LoadScene(sceneName);
 
+    }
+
+    private int stringToInt(string str)
+    {
+        int num = str[str.Length - 1] - 48;
+        return num;
     }
 }

@@ -27,9 +27,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 358421291804971604}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.17, y: -37.77, z: -1.175152}
-  m_LocalScale: {x: 1.3855, y: 1.3855, z: 1.3855}
+  m_LocalScale: {x: 3.4712286, y: 3.4712286, z: 3.4712286}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.08, y: 0.26}
+  m_Size: {x: 9.64, y: 5.75}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -144,6 +144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efd321d42b1ad1d46bae0172f24643c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 2.5
+  damageAmount: 0
   pushForce: 0
   origin: {x: 0, y: 0, z: 0}
