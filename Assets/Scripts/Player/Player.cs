@@ -24,18 +24,25 @@ public class Player : Mover
     private GameObject childSword;
     private Animator swordAnim;
     private Dictionary<int, WeaponSword> allWeapons = new Dictionary<int, WeaponSword>(); // hold the name and the sprite of the weapons
+    private List<int> allSketchs = new List<int>(); // hold the sketchs of the Swords
     private int currentSword = 0;
+    private int diamondRed = 0;
+    private int diamondBlue = 0;
+    private int diamondGreen = 0;
 
+    [SerializeField] private HealthBar healthBar; /////////////////////
     protected override void Awake()
     {
         base.Awake();
         attackRateTimer = attackRate;
     }
+
     private void Start()
     {
         childSword = this.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject;
         childSword.GetComponent<PlayerAttack>().setCharacterDamageAmount(baseDamage);
         swordAnim = childSword.GetComponent<Animator>();
+        healthBar.setMaxHealth(maxHitPoints); /////////////////////
     }
     private void Update()
     {
@@ -85,20 +92,49 @@ public class Player : Mover
 
     private void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.tag == "Weapon")
+        if (coll.tag.Equals("Weapon"))
         {
-            Sprite newSprite = coll.GetComponent<SpriteRenderer>().sprite;      // get the sprite from the collider
-            Damage newDamage = coll.GetComponent<SwordCollect>().getDamage();   // get the damage details
-            childSword.GetComponent<PlayerAttack>().setSelfDamage(newDamage);   // put the damage on childSword
-            childSword.GetComponent<SpriteRenderer>().sprite = newSprite;
-
-            WeaponSword s = new WeaponSword();
             string newName = coll.name;
             int n = stringToInt(newName);
-            s.name = newName;
-            s.sprite = newSprite;
-            allWeapons.Add(n, s);
-            currentSword = n;
+            if (allSketchs.Contains(n))
+            {
+                Sprite newSprite = coll.GetComponent<SpriteRenderer>().sprite;      // get the sprite from the collider
+                Damage newDamage = coll.GetComponent<SwordCollect>().getDamage();   // get the damage details
+                childSword.GetComponent<PlayerAttack>().setSelfDamage(newDamage);   // put the damage on childSword
+                childSword.GetComponent<SpriteRenderer>().sprite = newSprite;
+
+                WeaponSword s = new WeaponSword();
+                s.name = newName;
+                s.sprite = newSprite;
+                allWeapons.Add(n, s);
+                currentSword = n;
+                Destroy(coll.gameObject);
+            }
+            else
+            {
+                Debug.Log("you need to collect the sketch -" + n + "- first");
+            }
+        }
+        else if (coll.tag.Equals("Sketch"))
+        {
+            string newName = coll.name;
+            int n = stringToInt(newName);
+            allSketchs.Add(n);
+        }
+        else if (coll.tag.Equals("Diamond"))
+        {
+            if (coll.name.Contains("Red"))
+            {
+                diamondRed++;
+            }
+            else if (coll.name.Contains("Blue"))
+            {
+                diamondBlue++;
+            }
+            else
+            {
+                diamondGreen++;
+            }
         }
     }
 
@@ -107,7 +143,8 @@ public class Player : Mover
         if (currentSword != 0)
         {
             Debug.Log("attack! sword is equal to " + allWeapons[currentSword].name);
-            swordAnim.SetTrigger("attack");
+            // swordAnim.SetTrigger("attack");
+            swordAnim.SetTrigger(currentSword.ToString());
         }
         else
         {
@@ -125,7 +162,20 @@ public class Player : Mover
 
     private int stringToInt(string str)
     {
-        int num = str[str.Length - 1] - 48;
+        int num = 0;
+        for (int i = 6; i < str.Length; i++)
+        {
+            num *= 10;
+            int temp = str[i] - 48;
+            num += temp;
+        }
         return num;
+    }
+
+    public override void TakeDamage(Damage dmg)
+    {
+        base.TakeDamage(dmg);
+        healthBar.SetHealth(hitPoints);
+
     }
 }

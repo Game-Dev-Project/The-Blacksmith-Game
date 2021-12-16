@@ -37,7 +37,8 @@ public abstract class Character : MonoBehaviour
 
     }
 
-    public void TakeDamage(Damage dmg)
+
+    public virtual void TakeDamage(Damage dmg) // add virtual
     {
         if (Time.time - lastImmune > immuneTime)
         {
