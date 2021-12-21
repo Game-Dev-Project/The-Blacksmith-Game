@@ -30,11 +30,12 @@ public class Enemy : Mover
     }
     private void Update()
     {
-        playerPos = AI.getTargetPos();
+        
     }
 
     public virtual void Attack(Vector2 directionToTarget)
     {
+        playerPos = AI.getTargetPos();
         if (attackRateTimer <= 0)
         {
             if (playerPos.position.x < transform.position.x)
