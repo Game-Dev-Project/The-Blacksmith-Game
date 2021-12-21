@@ -64448,10 +64448,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPrefabe: {fileID: 3798724310376280558, guid: 34302ef0996481f4da3aeb2ecd4f23b0, type: 3}
-  minX: -10
-  maxX: 10
-  minY: -10
-  maxY: 10
+  minX: -5
+  maxX: 5
+  minY: -5
+  maxY: 5
 --- !u!4 &2100644437
 Transform:
   m_ObjectHideFlags: 0

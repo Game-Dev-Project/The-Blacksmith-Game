@@ -163,7 +163,7 @@ public class Player : Mover
         Debug.Log(gameObject.name + " got: " + hitPoints + ", Killing self");
         Debug.Log("the Player is DEAD!");
         Destroy(gameObject);
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene("Lobby");
     }
 
     private int stringToInt(string str)
