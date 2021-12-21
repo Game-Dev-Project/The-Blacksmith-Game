@@ -10,7 +10,8 @@ public class Enemy : Mover
     protected string enemyName;
     protected float attackRadius = 5f;
     [SerializeField] private GameObject Weapon;
-    [SerializeField] private Transform playerPos;
+    private Transform playerPos;
+    private EnemyAI AI;
     public float GetAttackRadius()
     {
         return attackRadius;
@@ -22,7 +23,14 @@ public class Enemy : Mover
         attackRateTimer = attackRate;
         enemyName = gameObject.name;
         movementSpeed = 2f;
-        playerPos = GameObject.Find("Player").transform;
+    }
+    private void Start()
+    {
+        AI = GetComponent<EnemyAI>();
+    }
+    private void Update()
+    {
+        playerPos = AI.getTargetPos();
     }
 
     public virtual void Attack(Vector2 directionToTarget)

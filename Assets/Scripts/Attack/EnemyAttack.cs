@@ -7,11 +7,11 @@ public class EnemyAttack : WeaponAttack
     {
         if (coll.tag.Equals("Player"))
         {
-            if (coll.name.Equals("Player"))
+            if (coll.name.Contains("Player"))
             {
                 Damage sumDamage = base.calculateSumDamage();
                 coll.GetComponent<Player>().TakeDamage(sumDamage);
-                // Debug.Log("PLAYER got hit by " + sumDamage.damageAmount + " point");
+                Debug.Log("PLAYER got hit by " + sumDamage.damageAmount + " point");
                 Destroy(gameObject);
             }
         }
