@@ -2,12 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Photon.Pun;
 
 public class Player : Mover
 {
     Camera cam;
-    PhotonView view;
     [SerializeField]
     [Tooltip("decide which scene the game will show when the player is DEAD")]
     string sceneName;
@@ -44,40 +42,38 @@ public class Player : Mover
         childSword.GetComponent<PlayerAttack>().setCharacterDamageAmount(baseDamage);
         swordAnim = childSword.GetComponent<Animator>();
         // healthBar.setMaxHealth(maxHitPoints); /////////////////////
-        view = GetComponent<PhotonView>();
         cam = GameObject.Find("Main Camera").GetComponent<Camera>();
     }
     private void Update()
     {
-        if (view.IsMine)
+
+        // center of the circle
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition); // get mouse position
+        directionToMouse = mousePos - (Vector2)transform.position; // direction to the mouse
+        directionToMouse = Vector2.ClampMagnitude(directionToMouse, weaponPosRadius); // we clamp the direction vector to threshhold
+        weaponPos = directionToMouse + (Vector2)transform.position; // apply direction with center
+
+        // for movement
+        xSpeed = Input.GetAxisRaw("Horizontal");
+        ySpeed = Input.GetAxisRaw("Vertical");
+
+        // adjusment the sprite of the player by the current direction movement
+        anim.SetFloat("moveX", xSpeed);
+        anim.SetFloat("moveY", ySpeed);
+
+        if (attackRateTimer <= 0)
         {
-            // center of the circle
-            mousePos = cam.ScreenToWorldPoint(Input.mousePosition); // get mouse position
-            directionToMouse = mousePos - (Vector2)transform.position; // direction to the mouse
-            directionToMouse = Vector2.ClampMagnitude(directionToMouse, weaponPosRadius); // we clamp the direction vector to threshhold
-            weaponPos = directionToMouse + (Vector2)transform.position; // apply direction with center
-
-            // for movement
-            xSpeed = Input.GetAxisRaw("Horizontal");
-            ySpeed = Input.GetAxisRaw("Vertical");
-
-            // adjusment the sprite of the player by the current direction movement
-            anim.SetFloat("moveX", xSpeed);
-            anim.SetFloat("moveY", ySpeed);
-
-            if (attackRateTimer <= 0)
+            if (Input.GetMouseButtonDown(0))
             {
-                if (Input.GetMouseButtonDown(0))
-                {
-                    Attack();
-                    attackRateTimer = attackRate;
-                }
-            }
-            else
-            {
-                attackRateTimer -= Time.deltaTime;
+                Attack();
+                attackRateTimer = attackRate;
             }
         }
+        else
+        {
+            attackRateTimer -= Time.deltaTime;
+        }
+
     }
     private void FixedUpdate()
     {
@@ -102,24 +98,24 @@ public class Player : Mover
         {
             string newName = coll.name;
             int n = stringToInt(newName);
-/*            if (allSketchs.Contains(n))
-            {*/
-                Sprite newSprite = coll.GetComponent<SpriteRenderer>().sprite;      // get the sprite from the collider
-                Damage newDamage = coll.GetComponent<SwordCollect>().getDamage();   // get the damage details
-                childSword.GetComponent<PlayerAttack>().setSelfDamage(newDamage);   // put the damage on childSword
-                childSword.GetComponent<SpriteRenderer>().sprite = newSprite;
+            /*            if (allSketchs.Contains(n))
+                        {*/
+            Sprite newSprite = coll.GetComponent<SpriteRenderer>().sprite;      // get the sprite from the collider
+            Damage newDamage = coll.GetComponent<SwordCollect>().getDamage();   // get the damage details
+            childSword.GetComponent<PlayerAttack>().setSelfDamage(newDamage);   // put the damage on childSword
+            childSword.GetComponent<SpriteRenderer>().sprite = newSprite;
 
-                WeaponSword s = new WeaponSword();
-                s.name = newName;
-                s.sprite = newSprite;
-                allWeapons.Add(n, s);
-                currentSword = n;
-                Destroy(coll.gameObject);
-           //}
-/*            else
-            {
-                Debug.Log("you need to collect the sketch -" + n + "- first");
-            }*/
+            WeaponSword s = new WeaponSword();
+            s.name = newName;
+            s.sprite = newSprite;
+            allWeapons.Add(n, s);
+            currentSword = n;
+            Destroy(coll.gameObject);
+            //}
+            /*            else
+                        {
+                            Debug.Log("you need to collect the sketch -" + n + "- first");
+                        }*/
         }
         else if (coll.tag.Equals("Sketch"))
         {
