@@ -71,7 +71,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4163187956830885829}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -105,7 +105,6 @@ MonoBehaviour:
   attackRange: 2
   movementSpeed: 5
   Weapon: {fileID: 8595347307525028338, guid: 75795933f9c76054c9cb95b4660f3e3d, type: 3}
-  playerPos: {fileID: 0}
 --- !u!114 &4633476409821994116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,8 +161,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1467571229
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
