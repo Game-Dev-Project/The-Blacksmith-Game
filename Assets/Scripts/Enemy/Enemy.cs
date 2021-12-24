@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
+
 
 // [RequireComponent(typeof(EnemyAI))]
 
@@ -12,6 +14,7 @@ public class Enemy : Mover
     [SerializeField] private GameObject Weapon;
     private Transform playerPos;
     private EnemyAI AI;
+
     public float GetAttackRadius()
     {
         return attackRadius;
@@ -24,29 +27,15 @@ public class Enemy : Mover
         enemyName = gameObject.name;
         movementSpeed = 2f;
     }
-    private void Start()
-    {
-        AI = GetComponent<EnemyAI>();
-    }
-    private void Update()
-    {
-        
-    }
 
-    public virtual void Attack(Vector2 directionToTarget)
+    public virtual void Attack(Vector2 directionToTarget) // ? delete Vector2
     {
-        playerPos = AI.getTargetPos();
         if (attackRateTimer <= 0)
         {
-            if (playerPos.position.x < transform.position.x)
+            if (enemyName.Contains("Skeleton"))
             {
-                anim.SetTrigger("th_Left");
+                GetComponent<Skeleton>().attack(baseDamage);
             }
-            else
-            {
-                anim.SetTrigger("th_Right");
-            }
-            StartCoroutine(throwBone());
             attackRateTimer = attackRate;
         }
         else
@@ -59,17 +48,15 @@ public class Enemy : Mover
     {
         Debug.Log(gameObject.name + " got: " + hitPoints + " and DEAD");
         // activate the animation - "die"
-        StartCoroutine(killAnimation());
-    }
-
-    private IEnumerator throwBone()
-    {
-        Transform newBoneLoaction = transform.GetChild(0).gameObject.GetComponent<Transform>();
-
-        yield return new WaitForSeconds(0.4f);
-        GameObject newBone = Instantiate(Weapon, newBoneLoaction.position, Quaternion.identity);
-        newBone.GetComponent<ObjectThrown>().player = playerPos;
-        newBone.GetComponent<EnemyAttack>().setCharacterDamageAmount(baseDamage);
+        try // delete try and catch after verify every enemy has Animtor and has the trigger "die"
+        {
+            StartCoroutine(killAnimation());
+        }
+        catch (IOException e)
+        {
+            Debug.Log(e.Message);
+            base.KillSelf();
+        }
     }
 
     private IEnumerator killAnimation()

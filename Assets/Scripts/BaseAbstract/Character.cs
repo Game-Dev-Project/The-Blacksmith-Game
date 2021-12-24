@@ -27,6 +27,8 @@ public abstract class Character : MonoBehaviour
     protected BoxCollider2D boxCollider2D;
     protected Rigidbody2D rb;
 
+    [SerializeField] protected HealthBar healthBar; /////////////////////
+
     protected virtual void Awake()
     {
         attackRateTimer = 0f;
@@ -35,6 +37,11 @@ public abstract class Character : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         lastImmune = 0;
 
+    }
+
+    protected virtual void Start()
+    {
+        healthBar.setMaxHealth(maxHitPoints); /////////////////////
     }
 
 
@@ -55,6 +62,7 @@ public abstract class Character : MonoBehaviour
                 hitPoints = 0f;
                 KillSelf();
             }
+            healthBar.SetHealth(hitPoints);
         }
     }
     protected virtual void KillSelf()

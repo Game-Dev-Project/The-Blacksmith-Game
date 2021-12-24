@@ -9,16 +9,18 @@ public class PlayerAttack : WeaponAttack
     {
         if (coll.tag.Equals("Enemy"))
         {
-            Damage sumDamage = base.calculateSumDamage();
-            coll.GetComponent<Enemy>().TakeDamage(sumDamage);
-            // Debug.Log("ENEMY got hit by " + sumDamage.damageAmount + " points");
-
-            Rigidbody2D rb = coll.GetComponent<Rigidbody2D>();
-            rb.isKinematic = false;
-            Vector2 distance = coll.transform.position - transform.position;
-            distance = distance.normalized * selfdDamage.pushForce;
-            rb.AddForce(distance, ForceMode2D.Impulse);
-            StartCoroutine(nokBack(rb));
+            Enemy e = coll.GetComponent<Enemy>();
+            if (e)
+            {
+                Damage sumDamage = base.calculateSumDamage();
+                e.TakeDamage(sumDamage);
+                Rigidbody2D rb = coll.GetComponent<Rigidbody2D>();
+                rb.isKinematic = false;
+                Vector2 distance = coll.transform.position - transform.position;
+                distance = distance.normalized * selfdDamage.pushForce;
+                rb.AddForce(distance, ForceMode2D.Impulse);
+                StartCoroutine(nokBack(rb));
+            }
         }
     }
 

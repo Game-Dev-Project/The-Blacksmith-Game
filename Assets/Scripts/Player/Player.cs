@@ -29,19 +29,18 @@ public class Player : Mover
     private int diamondBlue = 0;
     private int diamondGreen = 0;
 
-    // [SerializeField] private HealthBar healthBar; /////////////////////
     protected override void Awake()
     {
         base.Awake();
         attackRateTimer = attackRate;
     }
 
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         childSword = this.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject;
         childSword.GetComponent<PlayerAttack>().setCharacterDamageAmount(baseDamage);
         swordAnim = childSword.GetComponent<Animator>();
-        // healthBar.setMaxHealth(maxHitPoints); /////////////////////
         cam = GameObject.Find("Main Camera").GetComponent<Camera>();
     }
     private void Update()
@@ -98,8 +97,8 @@ public class Player : Mover
         {
             string newName = coll.name;
             int n = stringToInt(newName);
-            /*            if (allSketchs.Contains(n))
-                        {*/
+            // if (allSketchs.Contains(n))
+            // {
             Sprite newSprite = coll.GetComponent<SpriteRenderer>().sprite;      // get the sprite from the collider
             Damage newDamage = coll.GetComponent<SwordCollect>().getDamage();   // get the damage details
             childSword.GetComponent<PlayerAttack>().setSelfDamage(newDamage);   // put the damage on childSword
@@ -111,11 +110,11 @@ public class Player : Mover
             allWeapons.Add(n, s);
             currentSword = n;
             Destroy(coll.gameObject);
-            //}
-            /*            else
-                        {
-                            Debug.Log("you need to collect the sketch -" + n + "- first");
-                        }*/
+            // }
+            // else
+            // {
+            //     Debug.Log("you need to collect the sketch -" + n + "- first");
+            // }
         }
         else if (coll.tag.Equals("Sketch"))
         {
@@ -158,8 +157,8 @@ public class Player : Mover
     {
         Debug.Log(gameObject.name + " got: " + hitPoints + ", Killing self");
         Debug.Log("the Player is DEAD!");
-        Destroy(gameObject);
-        SceneManager.LoadScene("Lobby");
+        // Destroy(gameObject);
+        // SceneManager.LoadScene("Lobby");
     }
 
     private int stringToInt(string str)
@@ -172,11 +171,5 @@ public class Player : Mover
             num += temp;
         }
         return num;
-    }
-
-    public override void TakeDamage(Damage dmg)
-    {
-        base.TakeDamage(dmg);
-        // healthBar.SetHealth(hitPoints);
     }
 }
