@@ -1,7 +1,10 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class SwordCollect : Collidable
+public class CollSword : Collidable
 {
+    [SerializeField] private int numOfSword;
     [SerializeField] private float damageAmount;
     [SerializeField] private float pushForce;
     [SerializeField] private Vector3 origin;
@@ -25,5 +28,10 @@ public class SwordCollect : Collidable
     public Damage getDamage()
     {
         return damage;
+    }
+
+    public int getNumOfSword()
+    {
+        return numOfSword;
     }
 }

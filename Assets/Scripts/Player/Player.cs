@@ -15,9 +15,9 @@ public class Player : Mover
 
     private Vector2 weaponPos;
 
-    private float weaponPosRadius = 0.1f;
-    Vector2 mousePos;
-    Vector2 directionToMouse;
+    // private float weaponPosRadius = 0.1f;
+    // Vector2 mousePos;
+    // Vector2 directionToMouse;
 
     // Player sword
     private GameObject childSword;
@@ -47,10 +47,10 @@ public class Player : Mover
     {
 
         // center of the circle
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition); // get mouse position
-        directionToMouse = mousePos - (Vector2)transform.position; // direction to the mouse
-        directionToMouse = Vector2.ClampMagnitude(directionToMouse, weaponPosRadius); // we clamp the direction vector to threshhold
-        weaponPos = directionToMouse + (Vector2)transform.position; // apply direction with center
+        // mousePos = cam.ScreenToWorldPoint(Input.mousePosition); // get mouse position
+        // directionToMouse = mousePos - (Vector2)transform.position; // direction to the mouse
+        // directionToMouse = Vector2.ClampMagnitude(directionToMouse, weaponPosRadius); // we clamp the direction vector to threshhold
+        // weaponPos = directionToMouse + (Vector2)transform.position; // apply direction with center
 
         // for movement
         xSpeed = Input.GetAxisRaw("Horizontal");
@@ -96,18 +96,18 @@ public class Player : Mover
         if (coll.tag.Equals("Weapon"))
         {
             string newName = coll.name;
-            int n = stringToInt(newName);
+            int n = coll.GetComponent<CollSword>().getNumOfSword();
             // if (allSketchs.Contains(n))
             // {
             Sprite newSprite = coll.GetComponent<SpriteRenderer>().sprite;      // get the sprite from the collider
-            Damage newDamage = coll.GetComponent<SwordCollect>().getDamage();   // get the damage details
+            Damage newDamage = coll.GetComponent<CollSword>().getDamage();   // get the damage details
             childSword.GetComponent<PlayerAttack>().setSelfDamage(newDamage);   // put the damage on childSword
             childSword.GetComponent<SpriteRenderer>().sprite = newSprite;
 
-            WeaponSword s = new WeaponSword();
-            s.name = newName;
-            s.sprite = newSprite;
-            allWeapons.Add(n, s);
+            WeaponSword newSword = new WeaponSword();
+            newSword.name = newName;
+            newSword.sprite = newSprite;
+            allWeapons.Add(n, newSword);
             currentSword = n;
             Destroy(coll.gameObject);
             // }
@@ -116,27 +116,11 @@ public class Player : Mover
             //     Debug.Log("you need to collect the sketch -" + n + "- first");
             // }
         }
-        else if (coll.tag.Equals("Sketch"))
-        {
-            string newName = coll.name;
-            int n = stringToInt(newName);
-            allSketchs.Add(n);
-        }
-        else if (coll.tag.Equals("Diamond"))
-        {
-            if (coll.name.Contains("Red"))
-            {
-                diamondRed++;
-            }
-            else if (coll.name.Contains("Blue"))
-            {
-                diamondBlue++;
-            }
-            else
-            {
-                diamondGreen++;
-            }
-        }
+        // else if (coll.tag.Equals("Sketch"))
+        // {
+        //     int n = coll.GetComponent<CollSketch>().getNumOfSketch();
+        //     allSketchs.Add(n);
+        // }
     }
 
     private void Attack()
@@ -161,15 +145,19 @@ public class Player : Mover
         // SceneManager.LoadScene("Lobby");
     }
 
-    private int stringToInt(string str)
+    // add diamonds value
+    public void addRed(int num)
     {
-        int num = 0;
-        for (int i = 6; i < str.Length; i++)
-        {
-            num *= 10;
-            int temp = str[i] - 48;
-            num += temp;
-        }
-        return num;
+        diamondRed += num;
+    }
+
+    public void addBlue(int num)
+    {
+        diamondBlue += num;
+    }
+
+    public void addGreen(int num)
+    {
+        diamondGreen += num;
     }
 }

@@ -11,9 +11,7 @@ public class Enemy : Mover
     [Header("Enemy Parameters")]
     protected string enemyName;
     protected float attackRadius = 5f;
-    [SerializeField] private GameObject Weapon;
-    private Transform playerPos;
-    private EnemyAI AI;
+    // private Transform playerPos;
 
     public float GetAttackRadius()
     {

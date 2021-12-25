@@ -27,7 +27,7 @@ public abstract class Character : MonoBehaviour
     protected BoxCollider2D boxCollider2D;
     protected Rigidbody2D rb;
 
-    [SerializeField] protected HealthBar healthBar; /////////////////////
+    [SerializeField] protected HealthBar healthBar;
 
     protected virtual void Awake()
     {
@@ -36,14 +36,12 @@ public abstract class Character : MonoBehaviour
         boxCollider2D = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
         lastImmune = 0;
-
     }
 
     protected virtual void Start()
     {
-        healthBar.setMaxHealth(maxHitPoints); /////////////////////
+        healthBar.setMaxHealth(maxHitPoints);
     }
-
 
     public virtual void TakeDamage(Damage dmg) // add virtual
     {
@@ -65,6 +63,7 @@ public abstract class Character : MonoBehaviour
             healthBar.SetHealth(hitPoints);
         }
     }
+
     protected virtual void KillSelf()
     {
         // add death animation and logic
@@ -81,6 +80,7 @@ public abstract class Character : MonoBehaviour
         }
         Debug.Log(gameObject.name + " healed " + healAmount + " hitPoints");
         hitPoints += healAmount;
+        healthBar.SetHealth(hitPoints);
         if (hitPoints > maxHitPoints)
         {
             hitPoints = maxHitPoints;
