@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cd337f1b675c2e4f83b64ca4fdd321b, type: 3}
   m_Name: Sword_2
   m_EditorClassIdentifier: 
-  num: 3
+  num: 2
   sprite: {fileID: 21300000, guid: 8946d66ec25c08d459bad14993f2701a, type: 3}
   damageAmount: 3
   pushForce: 800
