@@ -34,6 +34,10 @@ public class Enemy : Mover
             {
                 GetComponent<Skeleton>().attack(baseDamage);
             }
+            else if (enemyName.Contains("Wolf"))
+            {
+                GetComponent<Wolf>().attack(baseDamage);
+            }
             attackRateTimer = attackRate;
         }
         else

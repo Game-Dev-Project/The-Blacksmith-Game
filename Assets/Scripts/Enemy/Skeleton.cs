@@ -10,7 +10,7 @@ public class Skeleton : MonoBehaviour
     private EnemyAI AI;
     private Animator anim;
 
-    void Update()
+    void Start()
     {
         AI = GetComponent<EnemyAI>();
         anim = GetComponent<Animator>();
