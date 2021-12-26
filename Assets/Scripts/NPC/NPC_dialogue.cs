@@ -5,12 +5,14 @@ using UnityEngine.UI;
 
 public class NPC_dialogue : MonoBehaviour
 {
+    public GameObject dialogueImage;
     [SerializeField]
     public string Name;
     [TextArea(5, 10)]
     public string[] sentences;
 
     private dialogueSystem dialogueSystem;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +28,9 @@ public class NPC_dialogue : MonoBehaviour
             GameObject.Find("PrassF").SetActive(false);
             dialogueSystem.Names = Name;
             dialogueSystem.dialogueLines = sentences;
+            Vector3 Pos = Camera.main.WorldToScreenPoint(transform.position);
+            Pos.y += 150;
+            dialogueImage.transform.position = Pos;
             FindObjectOfType<dialogueSystem>().Dialogue();
         }
     }

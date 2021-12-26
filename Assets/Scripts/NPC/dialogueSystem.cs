@@ -10,7 +10,7 @@ public class dialogueSystem : MonoBehaviour
     public TMP_Text dialogueText;
 
     //public GameObject KeyToPrass;
-    public Transform dialogueGUI;
+    public GameObject dialogueImage;
 
     public float letterDelay = 0.1f;
     public float letterMultiplier = 0.5f;
@@ -30,6 +30,8 @@ public class dialogueSystem : MonoBehaviour
     void Start()
     {
         dialogueText.text = "";
+       
+       
     }
 
     /*public void EnterRangeOfNPC()
@@ -43,11 +45,14 @@ public class dialogueSystem : MonoBehaviour
     }*/
     public void Dialogue()
     {
+        //dialogueImage = GameObject.Find("dialogueImage");
+        /*Debug.Log("found" + dialogueImage.name);*/
+        Debug.Log(this.name);
         outOfRange = false;
-        dialogueGUI.gameObject.SetActive(true);
-        Vector3 Pos = Camera.main.WorldToScreenPoint(this.transform.position);
+        dialogueImage.SetActive(true);
+        /*Vector3 Pos = Camera.main.WorldToScreenPoint(transform.position);
         Pos.y += 150;
-        GameObject.Find("dialogueImage").transform.position = Pos;
+        dialogueImage.transform.position = Pos;*/
         NPCName();
         /*if (Input.GetKeyDown(DialogueInput))
         {
@@ -70,7 +75,6 @@ public class dialogueSystem : MonoBehaviour
 
     private IEnumerator StartDialogue()
     {
-        Debug.Log("hyyy");
         if (outOfRange == false)
         {
             
@@ -79,6 +83,7 @@ public class dialogueSystem : MonoBehaviour
 
             while (currentDialogueIndex < dialogueLength)
             {
+                int currentdialogueLineLength = dialogueLines[currentDialogueIndex].Length;
                 StartCoroutine(DisplayString(dialogueLines[currentDialogueIndex++]));
 
                 if (currentDialogueIndex >= dialogueLength)
@@ -86,26 +91,14 @@ public class dialogueSystem : MonoBehaviour
                     dialogueEnded = true;
                 }
 
-                yield return new WaitForSeconds(5f); ;
+                yield return new WaitForSeconds(currentdialogueLineLength*0.2f +0.5f); ;
             }
-
-           /* while (true)
-            {
-                if (Input.GetKeyDown(DialogueInput) && dialogueEnded == false)
-                {
-                    break;
-                }
-                yield return 0;
-            }*/
-            /*dialogueEnded = false;
-            dialogueActive = false;*/
             DropDialogue();
         }
     }
 
     private IEnumerator DisplayString(string stringToDisplay)
     {
-        Debug.Log(stringToDisplay);
         if (outOfRange == false)
         {
             int stringLength = stringToDisplay.Length;
@@ -116,19 +109,8 @@ public class dialogueSystem : MonoBehaviour
             while (currentCharacterIndex < stringLength)
             {
                 dialogueText.text += stringToDisplay[currentCharacterIndex++];
-                yield return new WaitForSeconds(5f);
+                yield return new WaitForSeconds(0.1f);
             }
-            /*while (true)
-            {
-                if (Input.GetKeyDown(DialogueInput))
-                {
-                    break;
-                }
-                yield return 0;
-            }
-            dialogueEnded = false;
-            letterIsMultiplied = false;
-            dialogueText.text = "";*/
             yield return 0;
         }
     }
@@ -136,7 +118,7 @@ public class dialogueSystem : MonoBehaviour
     public void DropDialogue()
     {
         //KeyToPrass.SetActive(false);
-        dialogueGUI.gameObject.SetActive(false);
+        dialogueImage.SetActive(false);
     }
 
     public void OutOfRange()
@@ -148,7 +130,7 @@ public class dialogueSystem : MonoBehaviour
             dialogueActive = false;
             StopAllCoroutines();
             //KeyToPrass.SetActive(false);
-            dialogueGUI.gameObject.SetActive(false);
+            dialogueImage.SetActive(false);
         }
     }
 }
