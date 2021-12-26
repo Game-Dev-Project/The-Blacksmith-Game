@@ -1,0 +1,2352 @@
+fileFormatVersion: 2
+guid: f6e53174d2e8940499fe862ab8e50eac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6388592648521538784
+    second: PikPng.com_wolf-art-png_5782398_0
+  - first:
+      213: 6902968327773947349
+    second: PikPng.com_wolf-art-png_5782398_1
+  - first:
+      213: 692080058720571234
+    second: PikPng.com_wolf-art-png_5782398_2
+  - first:
+      213: -9202973886863762074
+    second: PikPng.com_wolf-art-png_5782398_3
+  - first:
+      213: 9202163411527589086
+    second: PikPng.com_wolf-art-png_5782398_4
+  - first:
+      213: -6650307065443510968
+    second: PikPng.com_wolf-art-png_5782398_5
+  - first:
+      213: 7682464787191641649
+    second: PikPng.com_wolf-art-png_5782398_6
+  - first:
+      213: 2928269652894810731
+    second: PikPng.com_wolf-art-png_5782398_7
+  - first:
+      213: 8250782789853892224
+    second: PikPng.com_wolf-art-png_5782398_8
+  - first:
+      213: 5919875114090413785
+    second: PikPng.com_wolf-art-png_5782398_9
+  - first:
+      213: 478395253775041895
+    second: PikPng.com_wolf-art-png_5782398_10
+  - first:
+      213: 1211839213373824307
+    second: PikPng.com_wolf-art-png_5782398_11
+  - first:
+      213: 4470003690614881993
+    second: PikPng.com_wolf-art-png_5782398_12
+  - first:
+      213: 7934683658497181777
+    second: PikPng.com_wolf-art-png_5782398_13
+  - first:
+      213: -136169072051495515
+    second: PikPng.com_wolf-art-png_5782398_14
+  - first:
+      213: -3601029646370073776
+    second: PikPng.com_wolf-art-png_5782398_15
+  - first:
+      213: -909052275186943325
+    second: PikPng.com_wolf-art-png_5782398_16
+  - first:
+      213: 9208154338987073599
+    second: PikPng.com_wolf-art-png_5782398_17
+  - first:
+      213: 4257299058014025946
+    second: PikPng.com_wolf-art-png_5782398_18
+  - first:
+      213: 7432905013505052396
+    second: PikPng.com_wolf-art-png_5782398_19
+  - first:
+      213: 5230268695373846453
+    second: PikPng.com_wolf-art-png_5782398_20
+  - first:
+      213: 5519314474989624312
+    second: PikPng.com_wolf-art-png_5782398_21
+  - first:
+      213: -8234101547916370447
+    second: PikPng.com_wolf-art-png_5782398_22
+  - first:
+      213: -6564505509491544384
+    second: PikPng.com_wolf-art-png_5782398_23
+  - first:
+      213: -1600269547130574317
+    second: PikPng.com_wolf-art-png_5782398_24
+  - first:
+      213: 3468097630982058814
+    second: PikPng.com_wolf-art-png_5782398_25
+  - first:
+      213: 1282580098113729928
+    second: PikPng.com_wolf-art-png_5782398_26
+  - first:
+      213: 8576681526483046423
+    second: PikPng.com_wolf-art-png_5782398_27
+  - first:
+      213: -2303206067416823381
+    second: PikPng.com_wolf-art-png_5782398_28
+  - first:
+      213: 2861865144391473837
+    second: PikPng.com_wolf-art-png_5782398_29
+  - first:
+      213: 2915522767944594079
+    second: PikPng.com_wolf-art-png_5782398_30
+  - first:
+      213: -8643283840594246301
+    second: PikPng.com_wolf-art-png_5782398_31
+  - first:
+      213: -5641588876039209712
+    second: PikPng.com_wolf-art-png_5782398_32
+  - first:
+      213: 116354551661043963
+    second: PikPng.com_wolf-art-png_5782398_33
+  - first:
+      213: -3170394910893997791
+    second: PikPng.com_wolf-art-png_5782398_34
+  - first:
+      213: -6572056960721834009
+    second: PikPng.com_wolf-art-png_5782398_35
+  - first:
+      213: -1641969210169676333
+    second: PikPng.com_wolf-art-png_5782398_36
+  - first:
+      213: 4977994184472569724
+    second: PikPng.com_wolf-art-png_5782398_37
+  - first:
+      213: -2946472665576526441
+    second: PikPng.com_wolf-art-png_5782398_38
+  - first:
+      213: 49144194888832747
+    second: PikPng.com_wolf-art-png_5782398_39
+  - first:
+      213: -4807380611014192613
+    second: PikPng.com_wolf-art-png_5782398_40
+  - first:
+      213: -4872931048153496956
+    second: PikPng.com_wolf-art-png_5782398_41
+  - first:
+      213: 3742857339250907514
+    second: PikPng.com_wolf-art-png_5782398_42
+  - first:
+      213: 4495923682288688051
+    second: PikPng.com_wolf-art-png_5782398_43
+  - first:
+      213: -1626799499598467057
+    second: PikPng.com_wolf-art-png_5782398_44
+  - first:
+      213: -8271169304391032007
+    second: PikPng.com_wolf-art-png_5782398_45
+  - first:
+      213: 9020210902079419827
+    second: PikPng.com_wolf-art-png_5782398_46
+  - first:
+      213: -1550629695004957995
+    second: PikPng.com_wolf-art-png_5782398_47
+  - first:
+      213: 2793740143072543553
+    second: PikPng.com_wolf-art-png_5782398_48
+  - first:
+      213: -805731114146470593
+    second: PikPng.com_wolf-art-png_5782398_49
+  - first:
+      213: 1038661559029016086
+    second: PikPng.com_wolf-art-png_5782398_50
+  - first:
+      213: -8175714408790117025
+    second: PikPng.com_wolf-art-png_5782398_51
+  - first:
+      213: 1208458614649701663
+    second: PikPng.com_wolf-art-png_5782398_52
+  - first:
+      213: 5563256298083473880
+    second: PikPng.com_wolf-art-png_5782398_53
+  - first:
+      213: -903359771865389346
+    second: PikPng.com_wolf-art-png_5782398_54
+  - first:
+      213: 331836259700889528
+    second: PikPng.com_wolf-art-png_5782398_55
+  - first:
+      213: -1736056786111239179
+    second: PikPng.com_wolf-art-png_5782398_56
+  - first:
+      213: 3507344149153098915
+    second: PikPng.com_wolf-art-png_5782398_57
+  - first:
+      213: 611135428772119500
+    second: PikPng.com_wolf-art-png_5782398_58
+  - first:
+      213: 8853216990509418810
+    second: PikPng.com_wolf-art-png_5782398_59
+  - first:
+      213: -6748321365808717209
+    second: PikPng.com_wolf-art-png_5782398_60
+  - first:
+      213: 4683192742530239615
+    second: PikPng.com_wolf-art-png_5782398_61
+  - first:
+      213: -2608250791913259032
+    second: PikPng.com_wolf-art-png_5782398_62
+  - first:
+      213: 6828593433779482662
+    second: PikPng.com_wolf-art-png_5782398_63
+  - first:
+      213: 4340677547960073148
+    second: PikPng.com_wolf-art-png_5782398_64
+  - first:
+      213: -4341724257277161994
+    second: PikPng.com_wolf-art-png_5782398_65
+  - first:
+      213: -5577241480257496555
+    second: PikPng.com_wolf-art-png_5782398_66
+  - first:
+      213: -3409932242078531010
+    second: PikPng.com_wolf-art-png_5782398_67
+  - first:
+      213: -7248841252783350972
+    second: PikPng.com_wolf-art-png_5782398_68
+  - first:
+      213: -7004362610552729339
+    second: PikPng.com_wolf-art-png_5782398_69
+  - first:
+      213: 527424534755283976
+    second: PikPng.com_wolf-art-png_5782398_70
+  - first:
+      213: 2336461049611531107
+    second: PikPng.com_wolf-art-png_5782398_71
+  - first:
+      213: -3677670695335982729
+    second: PikPng.com_wolf-art-png_5782398_72
+  - first:
+      213: 8525818971035887087
+    second: PikPng.com_wolf-art-png_5782398_73
+  - first:
+      213: -5975064487485697032
+    second: PikPng.com_wolf-art-png_5782398_74
+  - first:
+      213: 2930284093727487290
+    second: PikPng.com_wolf-art-png_5782398_75
+  - first:
+      213: -2004569874780498236
+    second: PikPng.com_wolf-art-png_5782398_76
+  - first:
+      213: -4920003205787154548
+    second: PikPng.com_wolf-art-png_5782398_77
+  - first:
+      213: -4240372533181397200
+    second: PikPng.com_wolf-art-png_5782398_78
+  - first:
+      213: 8903326518070453125
+    second: PikPng.com_wolf-art-png_5782398_79
+  - first:
+      213: -7017116815513062734
+    second: PikPng.com_wolf-art-png_5782398_80
+  - first:
+      213: 6258953155432658358
+    second: PikPng.com_wolf-art-png_5782398_81
+  - first:
+      213: -5490640546008265942
+    second: PikPng.com_wolf-art-png_5782398_82
+  - first:
+      213: -8147155083805611258
+    second: PikPng.com_wolf-art-png_5782398_83
+  - first:
+      213: -8429971428925324918
+    second: PikPng.com_wolf-art-png_5782398_84
+  - first:
+      213: -3708120333765224651
+    second: PikPng.com_wolf-art-png_5782398_85
+  - first:
+      213: 820807539173290139
+    second: PikPng.com_wolf-art-png_5782398_86
+  - first:
+      213: -4674528842319353426
+    second: PikPng.com_wolf-art-png_5782398_87
+  - first:
+      213: 6017780683257525228
+    second: PikPng.com_wolf-art-png_5782398_88
+  - first:
+      213: -5390224769797851217
+    second: PikPng.com_wolf-art-png_5782398_89
+  - first:
+      213: -8927708666681279288
+    second: PikPng.com_wolf-art-png_5782398_90
+  - first:
+      213: -756730129095377003
+    second: PikPng.com_wolf-art-png_5782398_91
+  - first:
+      213: 5947608689694597976
+    second: PikPng.com_wolf-art-png_5782398_92
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 422
+        width: 70
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023a33a95d82757a0800000000000000
+      internalID: -6388592648521538784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 422
+        width: 71
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d50db0ee154ccf50800000000000000
+      internalID: 6902968327773947349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 422
+        width: 71
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fcb288523ca9900800000000000000
+      internalID: 692080058720571234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 422
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d1a446208784080800000000000000
+      internalID: -9202973886863762074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_4
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 422
+        width: 75
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcd23d1ed6a4bf70800000000000000
+      internalID: 9202163411527589086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_5
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 422
+        width: 75
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84518f475fc55b3a0800000000000000
+      internalID: -6650307065443510968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 422
+        width: 75
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136310045099d9a60800000000000000
+      internalID: 7682464787191641649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 351
+        width: 85
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b620a531cbd43a820800000000000000
+      internalID: 2928269652894810731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 351
+        width: 93
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ec52c9b3ba08270800000000000000
+      internalID: 8250782789853892224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_9
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 351
+        width: 97
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9deb80a2d0f972250800000000000000
+      internalID: 5919875114090413785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_10
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 351
+        width: 96
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7658e7bd2f993a600800000000000000
+      internalID: 478395253775041895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_11
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 351
+        width: 86
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d190e085151d010800000000000000
+      internalID: 1211839213373824307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_12
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 356
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cef8cb6ca4a80e30800000000000000
+      internalID: 4470003690614881993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_13
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 356
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15842d56fb8ad1e60800000000000000
+      internalID: 7934683658497181777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 261
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5add9fe43fa3c1ef0800000000000000
+      internalID: -136169072051495515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_15
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 261
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053167e9d92960ec0800000000000000
+      internalID: -3601029646370073776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_16
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 323
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aab837a5c56263f0800000000000000
+      internalID: -909052275186943325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_17
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 316
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30eb4c959fe9cf70800000000000000
+      internalID: 9208154338987073599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_18
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 316
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8f787efe6f41b30800000000000000
+      internalID: 4257299058014025946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_19
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 306
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee40338abbf62760800000000000000
+      internalID: 7432905013505052396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 306
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b79a93daa5a59840800000000000000
+      internalID: 5230268695373846453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_21
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 258
+        width: 86
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb9d6db54b889c40800000000000000
+      internalID: 5519314474989624312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 259
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd53ffa4489abd80800000000000000
+      internalID: -8234101547916370447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_23
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 288
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce69a4f40136e4a0800000000000000
+      internalID: -6564505509491544384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 288
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a28625353bac9e0800000000000000
+      internalID: -1600269547130574317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_25
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 288
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e333f0dab68212030800000000000000
+      internalID: 3468097630982058814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_26
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 288
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885fd08cdc3acc110800000000000000
+      internalID: 1282580098113729928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_27
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 288
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7105da9386e760770800000000000000
+      internalID: 8576681526483046423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_28
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 288
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9881bd84e5900e0800000000000000
+      internalID: -2303206067416823381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_29
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 285
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa968e9f2367b720800000000000000
+      internalID: 2861865144391473837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_30
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 288
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92b6e5a284067820800000000000000
+      internalID: 2915522767944594079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_31
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 288
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365818c1423ec0880800000000000000
+      internalID: -8643283840594246301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_32
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 288
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d33e2cecc05b1b0800000000000000
+      internalID: -5641588876039209712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_33
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 288
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0a1c729df5d9100800000000000000
+      internalID: 116354551661043963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 285
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121057240ae7004d0800000000000000
+      internalID: -3170394910893997791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_35
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 288
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efaa84b30d5bc4a0800000000000000
+      internalID: -6572056960721834009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_36
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 288
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd25bfe3bd8639e0800000000000000
+      internalID: -1641969210169676333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_37
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 288
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77a2731653651540800000000000000
+      internalID: 4977994184472569724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_38
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 273
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79da9e3c8b60c17d0800000000000000
+      internalID: -2946472665576526441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_39
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 273
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be61f1782689ea000800000000000000
+      internalID: 49144194888832747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 273
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12166c0ec0c84db0800000000000000
+      internalID: -4807380611014192613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 273
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482c6d3970fdf5cb0800000000000000
+      internalID: -4872931048153496956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_42
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 271
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7993076bec41f330800000000000000
+      internalID: 3742857339250907514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_43
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 273
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb5514c4cab46e30800000000000000
+      internalID: 4495923682288688051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_44
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 270
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0076a969727c69e0800000000000000
+      internalID: -1626799499598467057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_45
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 273
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93368a61757e63d80800000000000000
+      internalID: -8271169304391032007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_46
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 273
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5bc89360a3e2d70800000000000000
+      internalID: 9020210902079419827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_47
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 273
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2ae0b028e0b7ae0800000000000000
+      internalID: -1550629695004957995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_48
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 273
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1438696bbdb55c620800000000000000
+      internalID: 2793740143072543553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_49
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 273
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35e1d412d771d4f0800000000000000
+      internalID: -805731114146470593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 187
+        width: 83
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61627c35f211a6e00800000000000000
+      internalID: 1038661559029016086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_51
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 187
+        width: 101
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55b50fdf070a8e80800000000000000
+      internalID: -8175714408790117025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_52
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 198
+        width: 99
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15c4f315be45c010800000000000000
+      internalID: 1208458614649701663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_53
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 187
+        width: 95
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d958b1b028a43d40800000000000000
+      internalID: 5563256298083473880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_54
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 232
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6e59dd21f9673f0800000000000000
+      internalID: -903359771865389346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_55
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 232
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7d01fe15bea9400800000000000000
+      internalID: 331836259700889528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_56
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 186
+        width: 94
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbeee11d8948e7e0800000000000000
+      internalID: -1736056786111239179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_57
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 187
+        width: 98
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aca053cbe69ca030800000000000000
+      internalID: 3507344149153098915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_58
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 121
+        width: 83
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc34e9d3f603b7800800000000000000
+      internalID: 611135428772119500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_59
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 116
+        width: 86
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3944ce42f1fcda70800000000000000
+      internalID: 8853216990509418810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_60
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 85
+        width: 67
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762eac0d8752952a0800000000000000
+      internalID: -6748321365808717209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_61
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 102
+        width: 89
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cc3399cfa0ef040800000000000000
+      internalID: 4683192742530239615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_62
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 141
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eff0ee49b1adcbd0800000000000000
+      internalID: -2608250791913259032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_63
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 141
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620bdff6c8904ce50800000000000000
+      internalID: 6828593433779482662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_64
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 144
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb7ca26b3f2d3c30800000000000000
+      internalID: 4340677547960073148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_65
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 144
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd4c4c9ac81fb3c0800000000000000
+      internalID: -4341724257277161994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_66
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 141
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a9da65c68a992b0800000000000000
+      internalID: -5577241480257496555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_67
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 92
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3202c241bc7da0d0800000000000000
+      internalID: -3409932242078531010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_68
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 124
+        width: 116
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b96ae5941f66b90800000000000000
+      internalID: -7248841252783350972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_69
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 112
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5011afff0518bce90800000000000000
+      internalID: -7004362610552729339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_70
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 112
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8041ae7e1d9c15700800000000000000
+      internalID: 527424534755283976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_71
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 112
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363b1ad02f6cc6020800000000000000
+      internalID: 2336461049611531107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_72
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 112
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77982abdcf946fcc0800000000000000
+      internalID: -3677670695335982729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_73
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 110
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe561e3be2bc15670800000000000000
+      internalID: 8525818971035887087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_74
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 111
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f31d51818e441da0800000000000000
+      internalID: -5975064487485697032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_75
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 110
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35ba91abd57aa820800000000000000
+      internalID: 2930284093727487290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_76
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 112
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6524ec1565e24e0800000000000000
+      internalID: -2004569874780498236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_77
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 112
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c870641d623a8bbb0800000000000000
+      internalID: -4920003205787154548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_78
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 95
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0374664c5ab2725c0800000000000000
+      internalID: -4240372533181397200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_79
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 98
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583a7ecdb48fe8b70800000000000000
+      internalID: 8903326518070453125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_80
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 98
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b27cef3f613e9e90800000000000000
+      internalID: -7017116815513062734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_81
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 95
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5bf57cbb44cd650800000000000000
+      internalID: 6258953155432658358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_82
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 98
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b02d993835dc3b0800000000000000
+      internalID: -5490640546008265942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_83
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 98
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bafb3ed9d7fee80800000000000000
+      internalID: -8147155083805611258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_84
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 98
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81c63836a9b20b80800000000000000
+      internalID: -8429971428925324918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_85
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 98
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5375581f33c1a8cc0800000000000000
+      internalID: -3708120333765224651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_86
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90f269ab18146b00800000000000000
+      internalID: 820807539173290139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_87
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9ac3dd8ccb02fb0800000000000000
+      internalID: -4674528842319353426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_88
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3b5c9d5a3738350800000000000000
+      internalID: 6017780683257525228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_89
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1
+        width: 83
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7ffa861231235b0800000000000000
+      internalID: -5390224769797851217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_90
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 4
+        width: 85
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc3948c4486a1480800000000000000
+      internalID: -8927708666681279288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_91
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 5
+        width: 86
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f3f68f4fd8f75f0800000000000000
+      internalID: -756730129095377003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_wolf-art-png_5782398_92
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 5
+        width: 85
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853e54c67962a8250800000000000000
+      internalID: 5947608689694597976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
