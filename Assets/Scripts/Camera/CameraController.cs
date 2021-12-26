@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    [SerializeField] private Transform followTransform;
+    private Transform followTransform;
 
+
+    private void Start() {
+        followTransform = GameObject.Find("Player").GetComponent<Transform>();
+        DontDestroyOnLoad(gameObject);
+    }
     // Update is called once per frame
     private void LateUpdate()
     {
