@@ -23,9 +23,3 @@ public struct Damage
     public float pushForce;
     public Vector3 origin;
 }
-
-public struct WeaponSword
-{
-    public string name;
-    public Sprite sprite;
-}

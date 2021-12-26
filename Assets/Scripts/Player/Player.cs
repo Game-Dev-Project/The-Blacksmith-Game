@@ -6,25 +6,17 @@ using UnityEngine.SceneManagement;
 public class Player : Mover
 {
     Camera cam;
-    [SerializeField]
-    [Tooltip("decide which scene the game will show when the player is DEAD")]
-    string sceneName;
+
     bool updatedStationary = true;
     private float xSpeed = 0f;
     private float ySpeed = 0f;
 
-    private Vector2 weaponPos;
-
-    // private float weaponPosRadius = 0.1f;
-    // Vector2 mousePos;
-    // Vector2 directionToMouse;
-
     // Player sword
     private GameObject childSword;
     private Animator swordAnim;
-    private Dictionary<int, WeaponSword> allWeapons = new Dictionary<int, WeaponSword>(); // hold the name and the sprite of the weapons
+    private List<Sword> allWeapons = new List<Sword>(); // hold details of the weapons
     private List<int> allSketchs = new List<int>(); // hold the sketchs of the Swords
-    private int currentSword = 0;
+    private int currentSword = -1;
     private int diamondRed = 0;
     private int diamondBlue = 0;
     private int diamondGreen = 0;
@@ -45,13 +37,6 @@ public class Player : Mover
     }
     private void Update()
     {
-
-        // center of the circle
-        // mousePos = cam.ScreenToWorldPoint(Input.mousePosition); // get mouse position
-        // directionToMouse = mousePos - (Vector2)transform.position; // direction to the mouse
-        // directionToMouse = Vector2.ClampMagnitude(directionToMouse, weaponPosRadius); // we clamp the direction vector to threshhold
-        // weaponPos = directionToMouse + (Vector2)transform.position; // apply direction with center
-
         // for movement
         xSpeed = Input.GetAxisRaw("Horizontal");
         ySpeed = Input.GetAxisRaw("Vertical");
@@ -60,6 +45,7 @@ public class Player : Mover
         anim.SetFloat("moveX", xSpeed);
         anim.SetFloat("moveY", ySpeed);
 
+        // check if player can attack - if true -> attack
         if (attackRateTimer <= 0)
         {
             if (Input.GetMouseButtonDown(0))
@@ -73,6 +59,33 @@ public class Player : Mover
             attackRateTimer -= Time.deltaTime;
         }
 
+        // change weapons - go to the  = E -> next weapon, Q -> previous weapon
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            int size = allWeapons.Count;
+            if (size > 0)
+            {
+                currentSword++;
+                if (currentSword >= size)
+                {
+                    currentSword = 0;
+                }
+                switchSword(allWeapons[currentSword]);
+            }
+        }
+        else if (Input.GetKeyDown(KeyCode.Q))
+        {
+            int size = allWeapons.Count;
+            if (size > 0)
+            {
+                currentSword--;
+                if (currentSword < 0)
+                {
+                    currentSword = size - 1;
+                }
+                switchSword(allWeapons[currentSword]);
+            }
+        }
     }
     private void FixedUpdate()
     {
@@ -95,25 +108,16 @@ public class Player : Mover
     {
         if (coll.tag.Equals("Weapon"))
         {
-            string newName = coll.name;
-            int n = coll.GetComponent<CollSword>().getNumOfSword();
-            // if (allSketchs.Contains(n))
+            Sword newSword = coll.GetComponent<CollSword>().getSword();
+            // if (allSketchs.Contains(newSword.num))
             // {
-            Sprite newSprite = coll.GetComponent<SpriteRenderer>().sprite;      // get the sprite from the collider
-            Damage newDamage = coll.GetComponent<CollSword>().getDamage();   // get the damage details
-            childSword.GetComponent<PlayerAttack>().setSelfDamage(newDamage);   // put the damage on childSword
-            childSword.GetComponent<SpriteRenderer>().sprite = newSprite;
-
-            WeaponSword newSword = new WeaponSword();
-            newSword.name = newName;
-            newSword.sprite = newSprite;
-            allWeapons.Add(n, newSword);
-            currentSword = n;
+            switchSword(newSword);
+            allWeapons.Add(newSword);
             Destroy(coll.gameObject);
             // }
             // else
             // {
-            //     Debug.Log("you need to collect the sketch -" + n + "- first");
+            //     Debug.Log("you need to collect the sketch -" + newSword.num + "- first");
             // }
         }
         // else if (coll.tag.Equals("Sketch"))
@@ -125,10 +129,8 @@ public class Player : Mover
 
     private void Attack()
     {
-        if (currentSword != 0)
+        if (currentSword >= 0)
         {
-            Debug.Log("attack! sword is equal to " + allWeapons[currentSword].name);
-            // swordAnim.SetTrigger("attack");
             swordAnim.SetTrigger(currentSword.ToString());
         }
         else
@@ -142,7 +144,14 @@ public class Player : Mover
         Debug.Log(gameObject.name + " got: " + hitPoints + ", Killing self");
         Debug.Log("the Player is DEAD!");
         // Destroy(gameObject);
-        // SceneManager.LoadScene("Lobby");
+    }
+
+    private void switchSword(Sword newSword)
+    {
+        Damage newDamage = newSword.GetDamage();
+        childSword.GetComponent<SpriteRenderer>().sprite = newSword.sprite; // put the sprite on childSword
+        childSword.GetComponent<PlayerAttack>().setSelfDamage(newDamage);   // put the damage on childSword
+        currentSword = newSword.num;
     }
 
     // add diamonds value

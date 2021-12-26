@@ -30170,6 +30170,10 @@ PrefabInstance:
       value: 0.26
       objectReference: {fileID: 0}
     - target: {fileID: 1843871120337682971, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
+      propertyPath: sword
+      value: 
+      objectReference: {fileID: 11400000, guid: df0cc3880a105264b9019e514c9df67a, type: 2}
+    - target: {fileID: 1843871120337682971, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: pushForce
       value: 700
       objectReference: {fileID: 0}
