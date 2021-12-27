@@ -1,0 +1,2412 @@
+fileFormatVersion: 2
+guid: 1ffd0cdf67bd8fb40b7c3a5137a606ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1390401188581155521
+    second: villager-males_1_0
+  - first:
+      213: 3406462273542964075
+    second: villager-males_1_1
+  - first:
+      213: 3656584893365164098
+    second: villager-males_1_2
+  - first:
+      213: -7097418908454328547
+    second: villager-males_1_3
+  - first:
+      213: -7163825155669340758
+    second: villager-males_1_4
+  - first:
+      213: -2382752633688685934
+    second: villager-males_1_5
+  - first:
+      213: -8231040599523563382
+    second: villager-males_1_6
+  - first:
+      213: -3350114620333953928
+    second: villager-males_1_7
+  - first:
+      213: -97136815505218791
+    second: villager-males_1_8
+  - first:
+      213: -7451936239275239870
+    second: villager-males_1_9
+  - first:
+      213: -9012289285786304026
+    second: villager-males_1_10
+  - first:
+      213: -5553406677518202620
+    second: villager-males_1_11
+  - first:
+      213: 8857048221472549045
+    second: villager-males_1_12
+  - first:
+      213: 1291264604934209650
+    second: villager-males_1_13
+  - first:
+      213: -4813526908571002182
+    second: villager-males_1_14
+  - first:
+      213: -7106230348011533396
+    second: villager-males_1_15
+  - first:
+      213: -6430532106279300685
+    second: villager-males_1_16
+  - first:
+      213: -175518492215658069
+    second: villager-males_1_17
+  - first:
+      213: -854585606920080819
+    second: villager-males_1_18
+  - first:
+      213: -624007375857864237
+    second: villager-males_1_19
+  - first:
+      213: -8110996185551468078
+    second: villager-males_1_20
+  - first:
+      213: -1857538268300280022
+    second: villager-males_1_21
+  - first:
+      213: -4589328366146395984
+    second: villager-males_1_22
+  - first:
+      213: -5857772485192438720
+    second: villager-males_1_23
+  - first:
+      213: 8935823179809773292
+    second: villager-males_1_24
+  - first:
+      213: -6568012034439472853
+    second: villager-males_1_25
+  - first:
+      213: -581559382428131090
+    second: villager-males_1_26
+  - first:
+      213: 7942382437676824255
+    second: villager-males_1_27
+  - first:
+      213: 7297132597063881142
+    second: villager-males_1_28
+  - first:
+      213: 4579929191727545023
+    second: villager-males_1_29
+  - first:
+      213: -4770405414898258054
+    second: villager-males_1_30
+  - first:
+      213: -1109082980264555219
+    second: villager-males_1_31
+  - first:
+      213: 3427752025015456048
+    second: villager-males_1_32
+  - first:
+      213: -1385222228745633929
+    second: villager-males_1_33
+  - first:
+      213: 7477970405209778680
+    second: villager-males_1_34
+  - first:
+      213: -4597119052185983127
+    second: villager-males_1_35
+  - first:
+      213: -4174557340463299008
+    second: villager-males_1_36
+  - first:
+      213: 225919373603085681
+    second: villager-males_1_37
+  - first:
+      213: 4352952564383821075
+    second: villager-males_1_38
+  - first:
+      213: -5260285982480403725
+    second: villager-males_1_39
+  - first:
+      213: -3809048050914764611
+    second: villager-males_1_40
+  - first:
+      213: -8040016278934039172
+    second: villager-males_1_41
+  - first:
+      213: 2620798508492403437
+    second: villager-males_1_42
+  - first:
+      213: 2803996076769200484
+    second: villager-males_1_43
+  - first:
+      213: 696678964041042348
+    second: villager-males_1_44
+  - first:
+      213: -6280212616970187802
+    second: villager-males_1_45
+  - first:
+      213: 2866089824487109951
+    second: villager-males_1_46
+  - first:
+      213: 6403578167526957306
+    second: villager-males_1_47
+  - first:
+      213: -4058052767432777061
+    second: villager-males_1_48
+  - first:
+      213: 8014521543409577057
+    second: villager-males_1_49
+  - first:
+      213: 8661577235806760419
+    second: villager-males_1_50
+  - first:
+      213: 3808998163456568141
+    second: villager-males_1_51
+  - first:
+      213: -1317374639253715567
+    second: villager-males_1_52
+  - first:
+      213: 3502305070306534132
+    second: villager-males_1_53
+  - first:
+      213: 2850373070685770965
+    second: villager-males_1_54
+  - first:
+      213: -907668590805576303
+    second: villager-males_1_55
+  - first:
+      213: -4503221839935099519
+    second: villager-males_1_56
+  - first:
+      213: -2476240925813843776
+    second: villager-males_1_57
+  - first:
+      213: 7674826389322223844
+    second: villager-males_1_58
+  - first:
+      213: 5553032002938581734
+    second: villager-males_1_59
+  - first:
+      213: 4763358282825296296
+    second: villager-males_1_60
+  - first:
+      213: 4137641561449116129
+    second: villager-males_1_61
+  - first:
+      213: 2034858182223752227
+    second: villager-males_1_62
+  - first:
+      213: -7246082680119915640
+    second: villager-males_1_63
+  - first:
+      213: 2317261369029885829
+    second: villager-males_1_64
+  - first:
+      213: 1272263545651596332
+    second: villager-males_1_65
+  - first:
+      213: 2026230651987210306
+    second: villager-males_1_66
+  - first:
+      213: 2890968116457634646
+    second: villager-males_1_67
+  - first:
+      213: -206142925217151791
+    second: villager-males_1_68
+  - first:
+      213: -4945674493215257407
+    second: villager-males_1_69
+  - first:
+      213: -3729026997513702279
+    second: villager-males_1_70
+  - first:
+      213: -8029755754862503351
+    second: villager-males_1_71
+  - first:
+      213: -2003223970740288347
+    second: villager-males_1_72
+  - first:
+      213: -5155632533569451983
+    second: villager-males_1_73
+  - first:
+      213: 766483806802225518
+    second: villager-males_1_74
+  - first:
+      213: -49198617878655954
+    second: villager-males_1_75
+  - first:
+      213: -315701458542350402
+    second: villager-males_1_76
+  - first:
+      213: -3669366777510866316
+    second: villager-males_1_77
+  - first:
+      213: 2443013184607917938
+    second: villager-males_1_78
+  - first:
+      213: 2145928965359405060
+    second: villager-males_1_79
+  - first:
+      213: 5166561310903537998
+    second: villager-males_1_80
+  - first:
+      213: -9185425804874001719
+    second: villager-males_1_81
+  - first:
+      213: -8040708044443300054
+    second: villager-males_1_82
+  - first:
+      213: -2969421200247533110
+    second: villager-males_1_83
+  - first:
+      213: 3766722081322890205
+    second: villager-males_1_84
+  - first:
+      213: 990173148990006636
+    second: villager-males_1_85
+  - first:
+      213: 6849035586353908715
+    second: villager-males_1_86
+  - first:
+      213: 3439815160515388378
+    second: villager-males_1_87
+  - first:
+      213: 9168246174534144770
+    second: villager-males_1_88
+  - first:
+      213: -5278263601611710089
+    second: villager-males_1_89
+  - first:
+      213: -6579736978631986252
+    second: villager-males_1_90
+  - first:
+      213: 3051725273889237117
+    second: villager-males_1_91
+  - first:
+      213: 5492987780418455595
+    second: villager-males_1_92
+  - first:
+      213: 1783025388709809787
+    second: villager-males_1_93
+  - first:
+      213: -913521286900751773
+    second: villager-males_1_94
+  - first:
+      213: -4555098988729474375
+    second: villager-males_1_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: villager-males_1_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 504
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3dd6535c7d44bce0800000000000000
+      internalID: -1390401188581155521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 504
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b634c4bb36f264f20800000000000000
+      internalID: 3406462273542964075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 504
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248171c469cceb230800000000000000
+      internalID: 3656584893365164098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 504
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1760734b17e08d90800000000000000
+      internalID: -7097418908454328547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 504
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad425bf9faf49c90800000000000000
+      internalID: -7163825155669340758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 504
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2920c51aa13ceeed0800000000000000
+      internalID: -2382752633688685934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 504
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8864954f2875cd80800000000000000
+      internalID: -8231040599523563382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 504
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ce622a0800281d0800000000000000
+      internalID: -3350114620333953928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_8
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 504
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913e239b496e6aef0800000000000000
+      internalID: -97136815505218791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_9
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 504
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2469321f877659890800000000000000
+      internalID: -7451936239275239870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_10
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 504
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e106abc4aaede280800000000000000
+      internalID: -9012289285786304026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_11
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 504
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409ce3dcc065ee2b0800000000000000
+      internalID: -5553406677518202620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 432
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b860674e6e8aea70800000000000000
+      internalID: 8857048221472549045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 432
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2708328115e7be110800000000000000
+      internalID: 1291264604934209650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 432
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba57d1a7cae23db0800000000000000
+      internalID: -4813526908571002182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 432
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab0cae1629916d90800000000000000
+      internalID: -7106230348011533396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_16
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 432
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b15a78ae1922c6a0800000000000000
+      internalID: -6430532106279300685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_17
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 432
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba939fb7cde609df0800000000000000
+      internalID: -175518492215658069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_18
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 432
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42fd551be6e324f0800000000000000
+      internalID: -854585606920080819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_19
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 432
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1b4c809941757f0800000000000000
+      internalID: -624007375857864237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_20
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 432
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d908a171f3ff6f80800000000000000
+      internalID: -8110996185551468078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_21
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 432
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f744169c2b836e0800000000000000
+      internalID: -1857538268300280022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_22
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 432
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b068329a2e6f40c0800000000000000
+      internalID: -4589328366146395984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_23
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 432
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c2c05e5f205bea0800000000000000
+      internalID: -5857772485192438720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 360
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6534886db620c70800000000000000
+      internalID: 8935823179809773292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_25
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 360
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b299ebe7adbb9d4a0800000000000000
+      internalID: -6568012034439472853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_26
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 360
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0639aa2d2ede7f0800000000000000
+      internalID: -581559382428131090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_27
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 360
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6370c1fb2093e60800000000000000
+      internalID: 7942382437676824255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_28
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 360
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b19ae66f6f944560800000000000000
+      internalID: 7297132597063881142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_29
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 360
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbabc59955d2f8f30800000000000000
+      internalID: 4579929191727545023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_30
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 360
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fa362cc8d1ccdb0800000000000000
+      internalID: -4770405414898258054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_31
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 360
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d46e6d7eebb90f0800000000000000
+      internalID: -1109082980264555219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_32
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 360
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0311c254e42d19f20800000000000000
+      internalID: 3427752025015456048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_33
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 360
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f34a0e8b3b6cce0800000000000000
+      internalID: -1385222228745633929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_34
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 360
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9a96ba67617c760800000000000000
+      internalID: 7477970405209778680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_35
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 360
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96726402490c330c0800000000000000
+      internalID: -4597119052185983127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 289
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0468f23773ef016c0800000000000000
+      internalID: -4174557340463299008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_37
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 289
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d9d7b2970a22300800000000000000
+      internalID: 225919373603085681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_38
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 289
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d293c5b4bc86c30800000000000000
+      internalID: 4352952564383821075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_39
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 289
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2f945e4c5bff6b0800000000000000
+      internalID: -5260285982480403725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_40
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 289
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8d4d89afa832bc0800000000000000
+      internalID: -3809048050914764611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_41
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 289
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7557c9cacf1c6090800000000000000
+      internalID: -8040016278934039172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_42
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 289
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2309e9b52fe5420800000000000000
+      internalID: 2620798508492403437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_43
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 289
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469ca6b539bc9e620800000000000000
+      internalID: 2803996076769200484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_44
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 289
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9472e93d91ba900800000000000000
+      internalID: 696678964041042348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_45
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 289
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebc09b16e338d8a0800000000000000
+      internalID: -6280212616970187802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_46
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 289
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f357aea928566c720800000000000000
+      internalID: 2866089824487109951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_47
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 289
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af024ee6a641ed850800000000000000
+      internalID: 6403578167526957306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_48
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 216
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92e06d2286eea7c0800000000000000
+      internalID: -4058052767432777061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_49
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 216
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ca4a781ec493f60800000000000000
+      internalID: 8014521543409577057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_50
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 216
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed2fdeda9a143870800000000000000
+      internalID: 8661577235806760419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_51
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 216
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ba1f216a74cd430800000000000000
+      internalID: 3808998163456568141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_52
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 216
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1958c2fcebeb7bde0800000000000000
+      internalID: -1317374639253715567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_53
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 216
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2abaac7efaa9030800000000000000
+      internalID: 3502305070306534132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_54
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 216
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d49093b43f8e8720800000000000000
+      internalID: 2850373070685770965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_55
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 216
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1951147c9305763f0800000000000000
+      internalID: -907668590805576303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_56
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 216
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d23ed78975181c0800000000000000
+      internalID: -4503221839935099519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_57
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 216
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8d4966fff92add0800000000000000
+      internalID: -2476240925813843776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_58
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 216
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0585820f5728a60800000000000000
+      internalID: 7674826389322223844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_59
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 216
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2b7897f25501d40800000000000000
+      internalID: 5553032002938581734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_60
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 144
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a967b1fe19da1240800000000000000
+      internalID: 4763358282825296296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_61
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 144
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e13116f31bdb6930800000000000000
+      internalID: 4137641561449116129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_62
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 144
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c6ebf4cb44d3c10800000000000000
+      internalID: 2034858182223752227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_63
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 144
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b875e913eb07b90800000000000000
+      internalID: -7246082680119915640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_64
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 144
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ff2c010f0982020800000000000000
+      internalID: 2317261369029885829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_65
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 144
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c0e3b34fcf7a110800000000000000
+      internalID: 1272263545651596332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_66
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 144
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240b4b4ea0e9e1c10800000000000000
+      internalID: 2026230651987210306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_67
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 144
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bff665f28ce1820800000000000000
+      internalID: 2890968116457634646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_68
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 144
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4c8790a12a32df0800000000000000
+      internalID: -206142925217151791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_69
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 144
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccc131704f6d5bb0800000000000000
+      internalID: -4945674493215257407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_70
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 144
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974ba57f3b5df3cc0800000000000000
+      internalID: -3729026997513702279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_71
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 144
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a95463fa3909090800000000000000
+      internalID: -8029755754862503351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_72
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 72
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a44a72896e1334e0800000000000000
+      internalID: -2003223970740288347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_73
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 72
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1384524c6838378b0800000000000000
+      internalID: -5155632533569451983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_74
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 72
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69298616f813aa00800000000000000
+      internalID: 766483806802225518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_75
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 72
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c07e12e16315ff0800000000000000
+      internalID: -49198617878655954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_76
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 72
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfa28432376e9bf0800000000000000
+      internalID: -315701458542350402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_77
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 72
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47258d36b5ac31dc0800000000000000
+      internalID: -3669366777510866316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_78
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 72
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277962a3c8357e120800000000000000
+      internalID: 2443013184607917938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_79
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 72
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408087d360fd7cd10800000000000000
+      internalID: 2145928965359405060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_80
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 72
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e419eae732053b740800000000000000
+      internalID: 5166561310903537998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_81
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 72
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c257cd95efc68080800000000000000
+      internalID: -9185425804874001719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_82
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 72
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fc45492aaa96090800000000000000
+      internalID: -8040708044443300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_83
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 72
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac15bbaa62f7ac6d0800000000000000
+      internalID: -2969421200247533110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_84
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3fed8a6c5164430800000000000000
+      internalID: 3766722081322890205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_85
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65edab9b3dcdbd00800000000000000
+      internalID: 990173148990006636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_86
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb42aaf399ac0f50800000000000000
+      internalID: 6849035586353908715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_87
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3e58fd9adacbf20800000000000000
+      internalID: 3439815160515388378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_88
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203117ef1572c3f70800000000000000
+      internalID: 9168246174534144770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_89
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7716f034837dfb6b0800000000000000
+      internalID: -5278263601611710089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_90
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b37321341410b4a0800000000000000
+      internalID: -6579736978631986252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_91
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78ef36c7f7e95a20800000000000000
+      internalID: 3051725273889237117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_92
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28476f78430b3c40800000000000000
+      internalID: 5492987780418455595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_93
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e0d87e4249eb810800000000000000
+      internalID: 1783025388709809787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_94
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362e587ca358253f0800000000000000
+      internalID: -913521286900751773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villager-males_1_95
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2e90c8a9909c0c0800000000000000
+      internalID: -4555098988729474375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

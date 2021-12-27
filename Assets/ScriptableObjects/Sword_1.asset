@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 1
   sprite: {fileID: 21300000, guid: 9dae966589ad09e438c12873a97d9454, type: 3}
-  damageAmount: 2.5
+  damageAmount: 4
   pushForce: 750
