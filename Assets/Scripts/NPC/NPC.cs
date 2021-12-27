@@ -16,9 +16,9 @@ public class NPC : MonoBehaviour
 
     private float roamingWaitTime;
     private Vector2 nextPointToRoam;
-    private bool setRoamingPoint = false;
     protected Vector2 moveDirection;
     private bool facingRight;
+    private NPC_dialogue npcDialog;
 
     protected BoxCollider2D boxCollider2D;
     protected Rigidbody2D rb;
@@ -27,6 +27,7 @@ public class NPC : MonoBehaviour
     {
         boxCollider2D = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
+        npcDialog = transform.GetChild(0).GetComponent<NPC_dialogue>();
     }
     private void Start()
     {
@@ -35,7 +36,9 @@ public class NPC : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Roam();
+        if (!npcDialog.enabled) {
+            Roam();
+        }
     }
     // makes the enemy roam randomly on a radius
     private void Roam()
@@ -52,21 +55,9 @@ public class NPC : MonoBehaviour
                 roamingWaitTime -= Time.deltaTime;
             }
         }
-        else if (setRoamingPoint)
-        {
             UpdateMovement(Mover.DirectionToMove(nextPointToRoam, transform.position));
-        }
     }
 
-    // before we start, we need to init point and radius
-/*    private IEnumerator WaitAndSetRoaming(Vector2 point, float radius, float seconds=1f)
-    {
-        yield return new WaitForSeconds(seconds);
-        this.roamingPoint = point;
-        this.roamingRadius = radius;
-        nextPointToRoam = Random.insideUnitCircle * roamingRadius + roamingPoint;
-        setRoamingPoint = true;
-    }*/
     private void UpdateMovement(Vector2 directionOfMovement)
     {
         moveDirection = directionOfMovement.normalized * (movementSpeed * Time.deltaTime);
