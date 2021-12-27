@@ -118,10 +118,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.004651457, y: -0.012286842}
+  m_Offset: {x: 0.004651472, y: -0.00103876}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +132,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5889695, y: 0.4826758}
+  m_Size: {x: 0.6789545, y: 0.5231691}
   m_EdgeRadius: 0
 --- !u!50 &7715651243528905009
 Rigidbody2D:
@@ -149,7 +149,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 2000
   m_AngularDrag: 200
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -172,8 +172,8 @@ MonoBehaviour:
   pushRecoverySpeed: 0.2
   immuneTime: 0.5
   baseDamage: 5
-  attackRate: 0.5
-  attackRange: 2
+  attackRate: 1
+  attackRange: 1
   healthBar: {fileID: 6259727057409804455}
   movementSpeed: 5
 --- !u!114 &7742718531771582330
@@ -191,7 +191,7 @@ MonoBehaviour:
   detectionRadius: 10
   detectorLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   gizmoIdleColor: {r: 0, g: 1, b: 0, a: 1}
   gizmoDetectedColor: {r: 1, g: 0, b: 0, a: 1}
   showGizmox: 1
@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c287635ae0c0eb4e8110c4d4e618b57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Weapon: {fileID: 0}
+  Weapon: {fileID: 6490292786219271621, guid: 92c2ddaf78fcebf40bd19a94dacef5a4, type: 3}
 --- !u!1001 &4188070016092583621
 PrefabInstance:
   m_ObjectHideFlags: 0

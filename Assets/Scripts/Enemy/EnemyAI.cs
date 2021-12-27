@@ -173,7 +173,8 @@ public class EnemyAI : MonoBehaviour
             Debug.LogError("Radius is invalid");
         }
     }
-    public Transform getTargetPos() {
+    public Transform getTargetPos()
+    {
         return target.transform;
     }
 }

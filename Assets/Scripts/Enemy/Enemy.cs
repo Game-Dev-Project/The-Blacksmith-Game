@@ -10,12 +10,11 @@ public class Enemy : Mover
 {
     [Header("Enemy Parameters")]
     protected string enemyName;
-    protected float attackRadius = 5f;
     // private Transform playerPos;
 
     public float GetAttackRadius()
     {
-        return attackRadius;
+        return attackRange;
     }
 
     protected override void Awake()

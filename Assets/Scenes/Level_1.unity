@@ -31541,7 +31541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5385048314277619330, guid: fee1de581a4392b42b69ef0476bbe88a, type: 3}
       propertyPath: timeBetweenAttack
-      value: 50
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6574243460218442779, guid: fee1de581a4392b42b69ef0476bbe88a, type: 3}
       propertyPath: m_RootOrder

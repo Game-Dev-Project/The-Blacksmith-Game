@@ -12,7 +12,7 @@ public class NPC_dialogue : MonoBehaviour
     public string[] sentences;
 
     private dialogueSystem dialogueSystem;
-    
+
 
     // Start is called before the first frame update
     void Start()
