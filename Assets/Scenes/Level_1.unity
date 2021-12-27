@@ -30133,7 +30133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 358421291804971606, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358421291804971606, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: m_LocalScale.x
@@ -31525,7 +31525,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5385048314277619330, guid: fee1de581a4392b42b69ef0476bbe88a, type: 3}
       propertyPath: Damage
-      value: 0.1
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 5385048314277619330, guid: fee1de581a4392b42b69ef0476bbe88a, type: 3}
       propertyPath: spawnPrefab
@@ -31541,11 +31541,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5385048314277619330, guid: fee1de581a4392b42b69ef0476bbe88a, type: 3}
       propertyPath: timeBetweenAttack
-      value: 5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6574243460218442779, guid: fee1de581a4392b42b69ef0476bbe88a, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6574243460218442779, guid: fee1de581a4392b42b69ef0476bbe88a, type: 3}
       propertyPath: m_LocalPosition.x
