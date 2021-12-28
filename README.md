@@ -9,4 +9,4 @@ you are our only hope\
 \
 you can read all about the game here [a link](https://github.com/Game-Dev-Project/the-blacksmith/blob/main/The%20blacksmith.pdf)
 
-it is possible to play in the game [click here](https://a-team-3.itch.io/the-blacksmith-opening)
+it is possible to play in the game [click here](https://a-team-3.itch.io/the-black-smith)
