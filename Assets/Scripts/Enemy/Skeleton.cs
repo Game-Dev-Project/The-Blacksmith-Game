@@ -14,12 +14,12 @@ public class Skeleton : MonoBehaviour
     {
         AI = GetComponent<EnemyAI>();
         anim = GetComponent<Animator>();
+        dmg = GetComponent<Enemy>().getBaseDamage();
     }
 
     public void attack(float damage)
     {
         this.targetPos = AI.getTargetPos();
-        dmg = damage;
         if (targetPos.position.x < transform.position.x)
         {
             anim.SetTrigger("th_Left");

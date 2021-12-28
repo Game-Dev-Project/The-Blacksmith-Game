@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Player : Mover
 {
@@ -35,8 +34,8 @@ public class Player : Mover
         swordAnim = childSword.GetComponent<Animator>();
         cam = GameObject.Find("Main Camera").GetComponent<Camera>();
         DontDestroyOnLoad(gameObject);
-        
     }
+
     private void Update()
     {
         // for movement
@@ -44,8 +43,11 @@ public class Player : Mover
         ySpeed = Input.GetAxisRaw("Vertical");
 
         // adjusment the sprite of the player by the current direction movement
-        anim.SetFloat("moveX", xSpeed);
-        anim.SetFloat("moveY", ySpeed);
+        if (!(xSpeed != 0 && ySpeed != 0))
+        {
+            anim.SetFloat("moveX", xSpeed);
+            anim.SetFloat("moveY", ySpeed);
+        }
 
         // check if player can attack - if true -> attack
         if (attackRateTimer <= 0)
