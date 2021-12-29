@@ -23,11 +23,14 @@ public class NPC : MonoBehaviour
     protected BoxCollider2D boxCollider2D;
     protected Rigidbody2D rb;
 
+    private Animator animator;
+
     private void Awake()
     {
         boxCollider2D = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
         npcDialog = transform.GetChild(0).GetComponent<NPC_dialogue>();
+        animator = GetComponent<Animator>();
     }
     private void Start()
     {
@@ -36,7 +39,8 @@ public class NPC : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (!npcDialog.enabled) {
+        if (!npcDialog.enabled)
+        {
             Roam();
         }
     }
@@ -55,22 +59,33 @@ public class NPC : MonoBehaviour
                 roamingWaitTime -= Time.deltaTime;
             }
         }
-            UpdateMovement(Mover.DirectionToMove(nextPointToRoam, transform.position));
+        UpdateMovement(Mover.DirectionToMove(nextPointToRoam, transform.position));
     }
 
     private void UpdateMovement(Vector2 directionOfMovement)
     {
+        if (directionOfMovement.x <= -0.1f || directionOfMovement.x >= 0.1f)
+        {
+            animator.SetFloat("MoveX", directionOfMovement.x);
+        }
+        // else
+        // {
+        //     animator.SetFloat("MoveY", directionOfMovement.y);
+        // }
+
         moveDirection = directionOfMovement.normalized * (movementSpeed * Time.deltaTime);
+
         // move character
         if (Mathf.Abs(moveDirection.sqrMagnitude) > 0f)
         {
             rb.MovePosition((Vector2)transform.position + moveDirection);
         }
+
         // flip character
-        if ((moveDirection.x < 0f && facingRight) || (moveDirection.x > 0f && !facingRight))
-        {
-            facingRight = !facingRight;
-            transform.Rotate(new Vector2(0, 180));
-        }
+        // if ((moveDirection.x < 0f && facingRight) || (moveDirection.x > 0f && !facingRight))
+        // {
+        //     facingRight = !facingRight;
+        //     transform.Rotate(new Vector2(0, 180));
+        // }
     }
 }
