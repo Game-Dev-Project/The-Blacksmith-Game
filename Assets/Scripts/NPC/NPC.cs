@@ -68,10 +68,10 @@ public class NPC : MonoBehaviour
         {
             animator.SetFloat("MoveX", directionOfMovement.x);
         }
-        // else
-        // {
-        //     animator.SetFloat("MoveY", directionOfMovement.y);
-        // }
+        else
+        {
+            animator.SetFloat("MoveY", directionOfMovement.y);
+        }
 
         moveDirection = directionOfMovement.normalized * (movementSpeed * Time.deltaTime);
 

@@ -31706,7 +31706,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'mineral: '
+  m_Text: 'blue:'
 --- !u!222 &1295612663
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31865,7 +31865,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'mineral: '
+  m_Text: 'green:'
 --- !u!222 &1351245823
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -32580,7 +32580,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'mineral: '
+  m_Text: 'red:'
 --- !u!222 &1871206951
 CanvasRenderer:
   m_ObjectHideFlags: 0
