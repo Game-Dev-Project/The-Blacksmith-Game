@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,7 +19,7 @@ public class MineralTxt : MonoBehaviour
         if (value != newValue)
         {
             value = newValue;
-            string temp = "mineral: " + value.ToString();
+            string temp = "X " + value.ToString();
             diamondText.text = temp;
         }
     }

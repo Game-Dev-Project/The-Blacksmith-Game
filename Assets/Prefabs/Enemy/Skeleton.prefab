@@ -106,7 +106,7 @@ MonoBehaviour:
   attackRate: 0.5
   attackRange: 5
   healthBar: {fileID: 433377793304811019}
-  movementSpeed: 5
+  movementSpeed: 2
 --- !u!114 &4633476409821994116
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -20,9 +20,8 @@ public class Enemy : Mover
     protected override void Awake()
     {
         base.Awake();
-        attackRateTimer = attackRate;
+        attackRateTimer = 0.2f;  // Meybe to delete this line
         enemyName = gameObject.name;
-        movementSpeed = 2f;
     }
 
     public virtual void Attack(Vector2 directionToTarget) // ? delete Vector2

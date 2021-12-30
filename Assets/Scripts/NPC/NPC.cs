@@ -80,12 +80,5 @@ public class NPC : MonoBehaviour
         {
             rb.MovePosition((Vector2)transform.position + moveDirection);
         }
-
-        // flip character
-        // if ((moveDirection.x < 0f && facingRight) || (moveDirection.x > 0f && !facingRight))
-        // {
-        //     facingRight = !facingRight;
-        //     transform.Rotate(new Vector2(0, 180));
-        // }
     }
 }

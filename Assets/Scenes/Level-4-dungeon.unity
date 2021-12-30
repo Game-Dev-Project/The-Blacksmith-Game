@@ -93668,7 +93668,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 358421291804971604, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: m_Name
-      value: Sword_1
+      value: Sword_2
       objectReference: {fileID: 0}
     - target: {fileID: 358421291804971605, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: m_Size.x
@@ -93681,7 +93681,7 @@ PrefabInstance:
     - target: {fileID: 358421291804971605, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 68cfe34a5e84af7478539917d0575870, type: 3}
+      objectReference: {fileID: 21300000, guid: 8946d66ec25c08d459bad14993f2701a, type: 3}
     - target: {fileID: 358421291804971605, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
@@ -93692,15 +93692,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 358421291804971606, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.6866095
+      value: 4.906018
       objectReference: {fileID: 0}
     - target: {fileID: 358421291804971606, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.6866095
+      value: 4.906018
       objectReference: {fileID: 0}
     - target: {fileID: 358421291804971606, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.6866095
+      value: 4.906018
       objectReference: {fileID: 0}
     - target: {fileID: 358421291804971606, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -93750,6 +93750,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.newSize.y
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 1843871120337682971, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
+      propertyPath: sword
+      value: 
+      objectReference: {fileID: 11400000, guid: 83783beb428c12b4da5708953ab0409c, type: 2}
     - target: {fileID: 1843871120337682971, guid: b32db4464b1a0e946a633d6b91ab1c4a, type: 3}
       propertyPath: pushForce
       value: 700
