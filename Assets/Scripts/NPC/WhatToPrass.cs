@@ -9,7 +9,7 @@ public class WhatToPrass : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     public void OnTriggerEnter2D(Collider2D other)

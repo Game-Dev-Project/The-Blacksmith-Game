@@ -504,7 +504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 1
-  roamingRadius: 3
+  roamingRadius: 2
   roamingPoint: {fileID: 0}
 --- !u!95 &9041843435129802576
 Animator:
