@@ -63516,6 +63516,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 433377794874043968, guid: b79a2a3e0930e3e48afd63792ad54778, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1467571229
+      objectReference: {fileID: 0}
     - target: {fileID: 4163187956830885829, guid: b79a2a3e0930e3e48afd63792ad54778, type: 3}
       propertyPath: m_Name
       value: Enemy

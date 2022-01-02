@@ -292,7 +292,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
 --- !u!114 &9041843434968704357
 MonoBehaviour:
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9947d05543ddf0247811fef524a58ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  KeyToPrass: {fileID: 0}
+  KeyToPrass: {fileID: 3785372802332348783, guid: e8ec592ee7b9258418e7038a8ad55861, type: 3}
 --- !u!114 &9041843434968704358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -319,9 +319,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1ad2443851aaf14d9709accc5cd18cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 0}
-  dialogueText: {fileID: 0}
-  dialogueImage: {fileID: 0}
+  nameText: {fileID: 1240101063400088377, guid: 54b7d88f3376b064ea8a2f9aa484c1ca, type: 3}
+  dialogueText: {fileID: 5370691506161201868, guid: 0058b955295b3bb4593ca684e7709b89, type: 3}
+  dialogueImage: {fileID: 2842697463357965033, guid: 3afaa643d66966f4b8daf49fbfa5a813, type: 3}
   letterDelay: 0.1
   letterMultiplier: 0.5
   DialogueInput: 102
@@ -343,7 +343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f6e2ad33d73ad04cad0694afc525888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueImage: {fileID: 0}
+  dialogueImage: {fileID: 2842697463357965033, guid: 3afaa643d66966f4b8daf49fbfa5a813, type: 3}
   Name: Dad
   sentences:
   - Son! you are finally home
