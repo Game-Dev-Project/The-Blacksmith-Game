@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.51, y: 0}
+  m_AnchoredPosition: {x: 0.05, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2115482562694409710
@@ -170,8 +170,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.117, y: 0.648}
-  m_SizeDelta: {x: 3.7838, y: 0.5691}
+  m_AnchoredPosition: {x: 0.0903, y: 0.66}
+  m_SizeDelta: {x: 2.823, y: 0.5691}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &5314626093528678940
 Canvas:
@@ -306,7 +306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9947d05543ddf0247811fef524a58ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  KeyToPrass: {fileID: 0}
 --- !u!114 &9041843434968704358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -321,7 +320,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 0}
   dialogueText: {fileID: 0}
-  dialogueImage: {fileID: 0}
   letterDelay: 0.1
   letterMultiplier: 0.5
   DialogueInput: 102
@@ -331,6 +329,7 @@ MonoBehaviour:
   dialogueActive: 0
   dialogueEnded: 0
   outOfRange: 1
+  prassed: 0
 --- !u!114 &9041843434968704359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -343,7 +342,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f6e2ad33d73ad04cad0694afc525888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueImage: {fileID: 0}
   Name: name
   sentences:
   - Welcome to THE game!
@@ -422,7 +420,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1467571229
-  m_SortingLayer: 3
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 5639415400230124497, guid: 9e87e003e150212459f46d3c5cdc9733, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
