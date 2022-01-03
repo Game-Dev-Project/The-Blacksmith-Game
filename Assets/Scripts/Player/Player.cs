@@ -21,6 +21,7 @@ public class Player : Mover
     private int diamondBlue = 0;
     private int diamondGreen = 0;
     private bool isTalking = false;
+    private Transform resetPoint;
 
     protected override void Awake()
     {
@@ -147,10 +148,11 @@ public class Player : Mover
 
     protected override void KillSelf()
     {
-        Debug.Log(gameObject.name + " got: " + hitPoints + ", Killing self");
-        Debug.Log("the Player is DEAD!");
-        Destroy(gameObject);
-        SceneManager.LoadScene(0);
+        resetPoint = GameObject.Find("Reset Point").transform;
+        Debug.Log(gameObject.name + " got: " + hitPoints + ", Killing player");
+        transform.position = resetPoint.position;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        hitPoints = maxHitPoints;
     }
 
     private void switchSword(Sword newSword)
