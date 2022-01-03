@@ -10,13 +10,13 @@ public class WhatToPrass : MonoBehaviour
     void Start()
     {
         GameObject dialugeGui = GameObject.Find("dialogueGUI");
-        KeyToPrass = FindObject(dialugeGui ,"CanvasPress");
+        KeyToPrass = FindObject(dialugeGui, "CanvasPress");
     }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
         //this.gameObject.GetComponent<NPC_dialogue>().enabled = true;
-        if (other.gameObject.tag == "Player" && other.GetComponent<Player>().getIsTalking() ==false)
+        if (other.gameObject.tag == "Player" && other.GetComponent<Player>().getIsTalking() == false)
         {
             other.GetComponent<Player>().setIsTalking(true);
             Debug.Log(this.name);
