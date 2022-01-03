@@ -93,10 +93,8 @@ public class dialogueSystem : MonoBehaviour
 
             while (currentCharacterIndex < stringLength)
             {
-                if (prassed == true)
+                if ( Input.GetKeyDown(KeyCode.Space))
                 {
-                    
-                    prassed = false;
                     dialogueText.text = stringToDisplay;
                     break;
                 }
