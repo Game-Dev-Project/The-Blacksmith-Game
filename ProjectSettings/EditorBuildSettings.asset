@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level-2-forest.unity
     guid: 0f070cf75e362714b87995a8e2d50f91
   - enabled: 1
+    path: Assets/Scenes/Level_3.unity
+    guid: 46fd1711dea5aab4ea73fd77057bf875
+  - enabled: 1
     path: Assets/Scenes/Level-4-dungeon.unity
     guid: a6a8e2bdae0a4284b9d72b3c74d3c594
   m_configObjects: {}
