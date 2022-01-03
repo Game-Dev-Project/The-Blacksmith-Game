@@ -59,7 +59,10 @@ public class NPC : MonoBehaviour
                 roamingWaitTime -= Time.deltaTime;
             }
         }
-        UpdateMovement(Mover.DirectionToMove(nextPointToRoam, transform.position));
+        else
+        {
+            UpdateMovement(Mover.DirectionToMove(nextPointToRoam, transform.position));
+        }
     }
 
     private void UpdateMovement(Vector2 directionOfMovement)
