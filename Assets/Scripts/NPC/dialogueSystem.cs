@@ -10,7 +10,7 @@ public class dialogueSystem : MonoBehaviour
     public TMP_Text dialogueText;
 
     //public GameObject KeyToPrass;
-    public GameObject dialogueImage;
+    GameObject dialogueImage;
 
     public float letterDelay = 0.1f;
     public float letterMultiplier = 0.5f;
@@ -30,29 +30,19 @@ public class dialogueSystem : MonoBehaviour
     void Start()
     {
         dialogueText.text = "";
-       
-       
+        
+        //nameText = FindObject(dialogueImage, "NPCname");
+
     }
 
-    /*public void EnterRangeOfNPC()
+    public void Dialogue(GameObject dialogueIm)
     {
         outOfRange = false;
-        KeyToPrass.SetActive(true);
-        if (dialogueActive == true)
-        {
-            KeyToPrass.SetActive(false);
-        }
-    }*/
-    public void Dialogue()
-    {
-        //dialogueImage = GameObject.Find("dialogueImage");
-        /*Debug.Log("found" + dialogueImage.name);*/
-        Debug.Log(this.name);
-        outOfRange = false;
+        dialogueImage = dialogueIm;
+        
         dialogueImage.SetActive(true);
-        /*Vector3 Pos = Camera.main.WorldToScreenPoint(transform.position);
-        Pos.y += 150;
-        dialogueImage.transform.position = Pos;*/
+        
+        //nameText = GameObject.Find("NPCname");
         NPCName();
         /*if (Input.GetKeyDown(DialogueInput))
         {
@@ -77,7 +67,7 @@ public class dialogueSystem : MonoBehaviour
     {
         if (outOfRange == false)
         {
-            
+
             int dialogueLength = dialogueLines.Length;
             int currentDialogueIndex = 0;
 
@@ -91,7 +81,7 @@ public class dialogueSystem : MonoBehaviour
                     dialogueEnded = true;
                 }
 
-                yield return new WaitForSeconds(currentdialogueLineLength*0.2f +0.5f); ;
+                yield return new WaitForSeconds(currentdialogueLineLength * 0.2f + 0.5f); ;
             }
             DropDialogue();
         }
@@ -132,5 +122,19 @@ public class dialogueSystem : MonoBehaviour
             //KeyToPrass.SetActive(false);
             dialogueImage.SetActive(false);
         }
+    }
+
+    public GameObject FindObject(GameObject parent, string name)
+    {
+        Transform[] trs = parent.GetComponentsInChildren<Transform>(true);
+        foreach (Transform t in trs)
+        {
+            Debug.Log(t.name);
+            if (t.name == name)
+            {
+                return t.gameObject;
+            }
+        }
+        return null;
     }
 }

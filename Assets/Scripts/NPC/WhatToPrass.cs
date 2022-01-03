@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class WhatToPrass : MonoBehaviour
 {
-    public GameObject KeyToPrass;
+    private GameObject KeyToPrass;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        GameObject dialugeGui = GameObject.Find("dialogueGUI");
+        KeyToPrass = FindObject(dialugeGui ,"CanvasPress");
     }
 
     public void OnTriggerEnter2D(Collider2D other)
@@ -34,5 +35,18 @@ public class WhatToPrass : MonoBehaviour
             this.gameObject.GetComponent<NPC_dialogue>().enabled = false;
 
         }
+    }
+
+    public GameObject FindObject(GameObject parent, string name)
+    {
+        Transform[] trs = parent.GetComponentsInChildren<Transform>(true);
+        foreach (Transform t in trs)
+        {
+            if (t.name == name)
+            {
+                return t.gameObject;
+            }
+        }
+        return null;
     }
 }
