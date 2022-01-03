@@ -46,15 +46,15 @@ TagManager:
   - name: Background
     uniqueID: 3589422623
     locked: 0
-  - name: Default
-    uniqueID: 0
-    locked: 0
-  - name: Player
-    uniqueID: 272776071
-    locked: 0
   - name: Top
     uniqueID: 385457713
     locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
   - name: frontlayer
     uniqueID: 2827396067
+    locked: 0
+  - name: Player
+    uniqueID: 272776071
     locked: 0
