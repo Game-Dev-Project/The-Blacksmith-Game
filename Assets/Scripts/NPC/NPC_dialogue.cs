@@ -44,7 +44,7 @@ public class NPC_dialogue : MonoBehaviour
 
     public void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.name.Equals("Player"))
         {
             if(prassed ==true)
             {

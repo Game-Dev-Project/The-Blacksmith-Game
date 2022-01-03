@@ -16,7 +16,7 @@ public class WhatToPrass : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         //this.gameObject.GetComponent<NPC_dialogue>().enabled = true;
-        if (other.gameObject.tag == "Player" && other.GetComponent<Player>().getIsTalking() ==false)
+        if (other.gameObject.name.Equals("Player") && other.GetComponent<Player>().getIsTalking() ==false)
         {
             other.GetComponent<Player>().setIsTalking(true);
             Debug.Log(this.name);
@@ -30,7 +30,7 @@ public class WhatToPrass : MonoBehaviour
 
     public void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.name.Equals("Player"))
         {
             KeyToPrass.SetActive(false);
             this.gameObject.GetComponent<NPC_dialogue>().enabled = false;

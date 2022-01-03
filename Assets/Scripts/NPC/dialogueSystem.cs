@@ -37,6 +37,7 @@ public class dialogueSystem : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
+            Debug.Log("prassed");
             prassed = true;
         }
     }
@@ -94,6 +95,8 @@ public class dialogueSystem : MonoBehaviour
             {
                 if (prassed == true)
                 {
+                    
+                    prassed = false;
                     dialogueText.text = stringToDisplay;
                     break;
                 }
