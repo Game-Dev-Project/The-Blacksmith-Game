@@ -10,6 +10,8 @@ public class NPC_dialogue : MonoBehaviour
 
     [SerializeField]
     public string Name;
+    [SerializeField]
+    public int howMuchUp = 250;
     [TextArea(5, 10)]
     public string[] sentences;
 
@@ -36,7 +38,7 @@ public class NPC_dialogue : MonoBehaviour
             dialogueSystem.Names = Name;
             dialogueSystem.dialogueLines = sentences;
             Vector3 Pos = Camera.main.WorldToScreenPoint(transform.position);
-            Pos.y += 150;
+            Pos.y += howMuchUp;
             dialogueImage.transform.position = Pos;
             FindObjectOfType<dialogueSystem>().Dialogue(dialogueImage);
         }

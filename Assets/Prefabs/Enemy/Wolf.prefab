@@ -94,8 +94,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1467571229
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -6388592648521538784, guid: f6e53174d2e8940499fe862ab8e50eac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -142,19 +142,19 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5083388646131051262}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 2000
-  m_AngularDrag: 200
+  m_LinearDrag: 0
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &4466326876050621386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,6 +298,10 @@ PrefabInstance:
     - target: {fileID: 7836272054268724776, guid: 82d9b5eb2a3ebff499b038dc40fe2510, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836272054268724778, guid: 82d9b5eb2a3ebff499b038dc40fe2510, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7836272054268724788, guid: 82d9b5eb2a3ebff499b038dc40fe2510, type: 3}
       propertyPath: m_Name

@@ -191,7 +191,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1467571229
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &6208194698720885302
@@ -343,6 +343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: name
+  howMuchUp: 200
   sentences:
   - Welcome to THE game!
 --- !u!1 &9041843435129802577
