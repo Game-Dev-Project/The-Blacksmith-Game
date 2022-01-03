@@ -25,7 +25,7 @@ public class NPC_dialogue : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            GameObject.Find("PrassF").SetActive(false);
+            GameObject.Find("CanvasPress").SetActive(false);
             dialogueSystem.Names = Name;
             dialogueSystem.dialogueLines = sentences;
             Vector3 Pos = Camera.main.WorldToScreenPoint(transform.position);
