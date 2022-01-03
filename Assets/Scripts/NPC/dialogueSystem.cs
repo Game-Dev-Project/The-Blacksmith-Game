@@ -25,14 +25,20 @@ public class dialogueSystem : MonoBehaviour
     public bool dialogueActive = false;
     public bool dialogueEnded = false;
     public bool outOfRange = true;
+    public bool prassed = false;
 
     // Start is called before the first frame update
     void Start()
     {
         dialogueText.text = "";
-        
-        //nameText = FindObject(dialogueImage, "NPCname");
+    }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            prassed = true;
+        }
     }
 
     public void Dialogue(GameObject dialogueIm)
@@ -41,18 +47,7 @@ public class dialogueSystem : MonoBehaviour
         dialogueImage = dialogueIm;
         
         dialogueImage.SetActive(true);
-        
-        //nameText = GameObject.Find("NPCname");
         NPCName();
-        /*if (Input.GetKeyDown(DialogueInput))
-        {
-            if (!dialogueActive)
-            {
-                dialogueActive = true;
-                StartCoroutine(StartDialogue());
-            }
-        }*/
-
         StartCoroutine(StartDialogue());
     }
 
@@ -67,7 +62,6 @@ public class dialogueSystem : MonoBehaviour
     {
         if (outOfRange == false)
         {
-
             int dialogueLength = dialogueLines.Length;
             int currentDialogueIndex = 0;
 
@@ -98,6 +92,11 @@ public class dialogueSystem : MonoBehaviour
 
             while (currentCharacterIndex < stringLength)
             {
+                if (prassed == true)
+                {
+                    dialogueText.text = stringToDisplay;
+                    break;
+                }
                 dialogueText.text += stringToDisplay[currentCharacterIndex++];
                 yield return new WaitForSeconds(0.1f);
             }

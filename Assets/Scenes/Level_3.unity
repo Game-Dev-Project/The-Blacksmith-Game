@@ -7210,7 +7210,7 @@ GameObject:
   - component: {fileID: 966585668}
   - component: {fileID: 966585667}
   m_Layer: 5
-  m_Name: PrassF
+  m_Name: CanvasPress
   m_TagString: dialogueImage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9786,7 +9786,7 @@ GameObject:
   - component: {fileID: 1386718947}
   - component: {fileID: 1386718946}
   m_Layer: 5
-  m_Name: dialogue
+  m_Name: dialogueTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

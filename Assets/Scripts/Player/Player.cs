@@ -20,6 +20,7 @@ public class Player : Mover
     private int diamondRed = 0;
     private int diamondBlue = 0;
     private int diamondGreen = 0;
+    private bool isTalking = false;
 
     protected override void Awake()
     {
@@ -174,5 +175,14 @@ public class Player : Mover
     public void addGreen(int num)
     {
         diamondGreen += num;
+    }
+
+    public bool getIsTalking ()
+    {
+        return isTalking;
+    }
+    public void setIsTalking(bool istalking)
+    {
+        isTalking= istalking;
     }
 }

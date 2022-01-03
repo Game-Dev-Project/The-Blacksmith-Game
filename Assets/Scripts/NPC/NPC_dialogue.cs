@@ -46,7 +46,11 @@ public class NPC_dialogue : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            dialogueSystem.OutOfRange();
+            if(prassed ==true)
+            {
+                dialogueSystem.OutOfRange();
+            }
+            prassed = false;
             this.gameObject.GetComponent<NPC_dialogue>().enabled = false;
         }
     }

@@ -16,8 +16,9 @@ public class WhatToPrass : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         //this.gameObject.GetComponent<NPC_dialogue>().enabled = true;
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" && other.GetComponent<Player>().getIsTalking() ==false)
         {
+            other.GetComponent<Player>().setIsTalking(true);
             Debug.Log(this.name);
             KeyToPrass.SetActive(true);
             Vector3 Pos = Camera.main.WorldToScreenPoint(this.transform.position);
@@ -33,7 +34,7 @@ public class WhatToPrass : MonoBehaviour
         {
             KeyToPrass.SetActive(false);
             this.gameObject.GetComponent<NPC_dialogue>().enabled = false;
-
+            other.GetComponent<Player>().setIsTalking(false);
         }
     }
 
