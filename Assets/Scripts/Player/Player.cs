@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : Mover
 {
@@ -147,7 +148,8 @@ public class Player : Mover
     {
         Debug.Log(gameObject.name + " got: " + hitPoints + ", Killing self");
         Debug.Log("the Player is DEAD!");
-        // Destroy(gameObject);
+        Destroy(gameObject);
+        SceneManager.LoadScene(0);
     }
 
     private void switchSword(Sword newSword)
