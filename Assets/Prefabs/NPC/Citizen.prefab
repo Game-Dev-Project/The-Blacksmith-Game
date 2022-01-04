@@ -342,10 +342,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f6e2ad33d73ad04cad0694afc525888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: name
-  howMuchUp: 200
+  Name: Alex
+  howMuchUp: 150
   sentences:
-  - Welcome to THE game!
+  - Welcome to THE BlackSmith game!
 --- !u!1 &9041843435129802577
 GameObject:
   m_ObjectHideFlags: 0

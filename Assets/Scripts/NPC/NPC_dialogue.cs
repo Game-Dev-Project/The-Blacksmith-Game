@@ -48,7 +48,7 @@ public class NPC_dialogue : MonoBehaviour
     {
         if (other.gameObject.name.Equals("Player"))
         {
-            if(prassed ==true)
+            if (prassed == true)
             {
                 dialogueSystem.OutOfRange();
             }

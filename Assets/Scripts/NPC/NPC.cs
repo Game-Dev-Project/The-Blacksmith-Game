@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(BoxCollider2D))]
@@ -35,7 +33,7 @@ public class NPC : MonoBehaviour
     private void Start()
     {
         // start npc roaming
-        // StartCoroutine(WaitAndSetRoaming(roamingPoint, roamingRadius));
+        nextPointToRoam = roamingPoint.position;
     }
     private void FixedUpdate()
     {
