@@ -1,7 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Player : Mover
 {
@@ -23,6 +23,11 @@ public class Player : Mover
     private bool isTalking = false;
     private Transform resetPoint;
 
+    // Sword Canvas
+    private ResourcesTxt dmgTxt;
+    private ResourcesTxt pushForceTxt;
+    private Image imageSword;
+
     protected override void Awake()
     {
         base.Awake();
@@ -37,6 +42,9 @@ public class Player : Mover
         swordAnim = childSword.GetComponent<Animator>();
         cam = GameObject.Find("Main Camera").GetComponent<Camera>();
         DontDestroyOnLoad(gameObject);
+        dmgTxt = GameObject.Find("CanvasSword").transform.GetChild(0).GetComponent<ResourcesTxt>();
+        pushForceTxt = GameObject.Find("CanvasSword").transform.GetChild(1).GetComponent<ResourcesTxt>();
+        imageSword = GameObject.Find("CanvasSword").transform.GetChild(2).GetComponent<Image>();
     }
 
     private void Update()
@@ -116,22 +124,10 @@ public class Player : Mover
         if (coll.tag.Equals("Weapon"))
         {
             Sword newSword = coll.GetComponent<CollSword>().getSword();
-            // if (allSketchs.Contains(newSword.num))
-            // {
             switchSword(newSword);
             allWeapons.Add(newSword);
             Destroy(coll.gameObject);
-            // }
-            // else
-            // {
-            //     Debug.Log("you need to collect the sketch -" + newSword.num + "- first");
-            // }
         }
-        // else if (coll.tag.Equals("Sketch"))
-        // {
-        //     int n = coll.GetComponent<CollSketch>().getNumOfSketch();
-        //     allSketchs.Add(n);
-        // }
     }
 
     private void Attack()
@@ -161,6 +157,9 @@ public class Player : Mover
         childSword.GetComponent<SpriteRenderer>().sprite = newSword.sprite; // put the sprite on childSword
         childSword.GetComponent<PlayerAttack>().setSelfDamage(newDamage);   // put the damage on childSword
         currentSword = newSword.num;
+        dmgTxt.newValue = newSword.damageAmount;
+        pushForceTxt.newValue = newSword.pushForce;
+        imageSword.sprite = newSword.sprite;
     }
 
     // add diamonds value
@@ -179,12 +178,12 @@ public class Player : Mover
         diamondGreen += num;
     }
 
-    public bool getIsTalking ()
+    public bool getIsTalking()
     {
         return isTalking;
     }
     public void setIsTalking(bool istalking)
     {
-        isTalking= istalking;
+        isTalking = istalking;
     }
 }
