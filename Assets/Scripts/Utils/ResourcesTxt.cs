@@ -1,17 +1,20 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(Text))]
-public class MineralTxt : MonoBehaviour
+public class ResourcesTxt : MonoBehaviour
 {
     private Text diamondText;
-    public int newValue = 0;
+    public float newValue = 0;
 
-    private int value;
+    private string str;
+    private float value;
 
     private void Start()
     {
         diamondText = GetComponent<Text>();
+        str = diamondText.text;
+        string temp = str + " " + value.ToString();
+        diamondText.text = temp;
     }
 
     private void Update()
@@ -19,7 +22,7 @@ public class MineralTxt : MonoBehaviour
         if (value != newValue)
         {
             value = newValue;
-            string temp = "X " + value.ToString();
+            string temp = str + " " + value.ToString();
             diamondText.text = temp;
         }
     }

@@ -10,13 +10,13 @@ public class CollDiamond : Collidable
     [SerializeField]
     [Tooltip("set the color of the diamond - red = 0, blue = 1, green = 2")] private int type;
 
-    private MineralTxt mineral;
+    private ResourcesTxt mineral;
 
     // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
-        mineral = GameObject.Find("CanvasMineral").transform.GetChild(type).GetComponent<MineralTxt>();
+        mineral = GameObject.Find("CanvasMineral").transform.GetChild(type).GetComponent<ResourcesTxt>();
     }
 
     protected override void OnTriggerEnter2D(Collider2D coll)
