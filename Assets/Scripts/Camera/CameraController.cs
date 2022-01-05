@@ -7,9 +7,9 @@ public class CameraController : MonoBehaviour
     private Transform followTransform;
 
 
-    private void Start() {
+    private void Start()
+    {
         followTransform = GameObject.Find("Player").GetComponent<Transform>();
-        DontDestroyOnLoad(gameObject);
     }
     // Update is called once per frame
     private void LateUpdate()

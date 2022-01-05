@@ -5183,6 +5183,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citizen_1
       objectReference: {fileID: 0}
+    - target: {fileID: 9041843435129802580, guid: 5b025b75e4b9578489e0e041dd148218, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3406462273542964075, guid: 1ffd0cdf67bd8fb40b7c3a5137a606ec, type: 3}
     - target: {fileID: 9041843435129802583, guid: 5b025b75e4b9578489e0e041dd148218, type: 3}
       propertyPath: roamingPoint
       value: 
@@ -5278,7 +5282,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751089595}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9, y: -24.5, z: 0}
+  m_LocalPosition: {x: -1.51, y: -30.9, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1375932096}
@@ -7080,6 +7084,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1740489433987511449, guid: aed4fe44f5ad6d14ab62e96f6f79b0fa, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740489433987511449, guid: aed4fe44f5ad6d14ab62e96f6f79b0fa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740489433987511449, guid: aed4fe44f5ad6d14ab62e96f6f79b0fa, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740489433987511449, guid: aed4fe44f5ad6d14ab62e96f6f79b0fa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740489433987511449, guid: aed4fe44f5ad6d14ab62e96f6f79b0fa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 412.01514
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740489433987511449, guid: aed4fe44f5ad6d14ab62e96f6f79b0fa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 187.06079
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740489433987511450, guid: aed4fe44f5ad6d14ab62e96f6f79b0fa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1740489434626557667, guid: aed4fe44f5ad6d14ab62e96f6f79b0fa, type: 3}
       propertyPath: m_RootOrder
       value: 14
