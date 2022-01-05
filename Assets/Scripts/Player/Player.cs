@@ -41,7 +41,7 @@ public class Player : Mover
         childSword.GetComponent<PlayerAttack>().setCharacterDamageAmount(baseDamage);
         swordAnim = childSword.GetComponent<Animator>();
         cam = GameObject.Find("Main Camera").GetComponent<Camera>();
-        DontDestroyOnLoad(gameObject);
+        // DontDestroyOnLoad(gameObject);
         dmgTxt = GameObject.Find("CanvasSword").transform.GetChild(0).GetComponent<ResourcesTxt>();
         pushForceTxt = GameObject.Find("CanvasSword").transform.GetChild(1).GetComponent<ResourcesTxt>();
         imageSword = GameObject.Find("CanvasSword").transform.GetChild(2).GetComponent<Image>();
